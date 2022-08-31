@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "homekit.cc5849fd4f7318d8fb5dd37467bc586f.aids",
+  "data": {
+    "allocations": {
+      "cast.media_player.b0758608-2719-781b-0161-bbd36046351a": 3088081548,
+      "tuya.light.tuya.bf09deb6716b72ca30hpuyswitch_led": 1058001051,
+      "tuya.switch.tuya.bfe47d6e6335f13325esrjswitch_1": 963065155,
+      "tuya.switch.tuya.bf6cfbc1bc0729be94vjqvswitch_1": 905277570,
+      "tplink.light.CC32E5A2FC40": 1955373194,
+      "tplink.light.CC32E5BC6065": 1702686174
+    }
+  }
+}

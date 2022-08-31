@@ -1,1 +1,0 @@
-"""Hardware handler of Supervisor."""

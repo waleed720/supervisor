@@ -1,1 +1,0 @@
-"""Supervisor handler around core."""

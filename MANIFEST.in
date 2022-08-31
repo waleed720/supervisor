@@ -1,3 +1,0 @@
-include LICENSE.md
-graft supervisor
-recursive-exclude * *.py[co]

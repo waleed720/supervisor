@@ -1,1 +1,0 @@
-"""Security feature of Supervisor."""

@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth_provider.homeassistant",
+  "data": {
+    "users": [
+      {
+        "username": "w360",
+        "password": "JDJiJDEyJDFJMDZhV0NlZmJ3dHBjRzRZbm5PaU85RjFkMUp2Rk9FOFgyRlY2cTV3V2dBRXRveHVSRXpP"
+      }
+    ]
+  }
+}

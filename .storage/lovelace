@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace",
+  "data": {
+    "config": {
+      "title": "Abo Rami Home",
+      "views": [
+        {
+          "path": "default_view",
+          "title": "Home",
+          "cards": [
+            {
+              "type": "light",
+              "entity": "light.njf_grf_wlydr"
+            },
+            {
+              "type": "light",
+              "entity": "light.mjf_wlyd_l"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "switch.smart_switch_2_switch_1",
+                "switch.smart_switch_switch_1"
+              ],
+              "title": "Switch"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "light.njf_grf_wlydr"
+                },
+                {
+                  "entity": "light.mjf_wlyd_l"
+                }
+              ],
+              "title": "نجفة غرفة"
+            },
+            {
+              "type": "weather-forecast",
+              "entity": "weather.forecast_abo_rami_home"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

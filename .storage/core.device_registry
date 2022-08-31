@@ -1,0 +1,280 @@
+{
+  "version": 1,
+  "minor_version": 3,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "config_entries": [
+          "f268e145ced3aaaf75f627576fb32190"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "b07586082719781b0161bbd36046351a"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Chromecast",
+        "name": "تلفزيون",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "ef3e8c22a470435a47bb5971ac03bde5",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "e708f168edbbf35a9da28a6802175abd"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "met"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name": "Forecast",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "9c4550e5a80831234f68015c0bbf6c55",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://www.met.no/en"
+      },
+      {
+        "config_entries": [
+          "cc5849fd4f7318d8fb5dd37467bc586f"
+        ],
+        "connections": [
+          [
+            "mac",
+            "62:17:e0:6a:c3:55"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "cc5849fd4f7318d8fb5dd37467bc586f",
+            "homekit.bridge"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "HomeKit Bridge",
+        "name": "HASS Bridge:21064",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "5b9a403cecd18aa318dc955af61db101",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a7e00c13f34940d8507b5745409922b6"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mobile_app",
+            "D025FC75-1A4E-414E-908A-3EA73FE6EF0F"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPhone14,3",
+        "name": "iPhone 13 Pro Max وليد",
+        "sw_version": "15.6.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "2de1a916186ec6c3818eb16f63bbda65",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "96012b6168abc2bbf4e7ba12c0b392b8"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "bf6cfbc1bc0729be94vjqv"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "Smart Switch (afr25awpvxdwjqtx)",
+        "name": "Smart Switchابجورة ",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "68a35193e51aea187e0174669d170231",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "96012b6168abc2bbf4e7ba12c0b392b8"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "bfe47d6e6335f13325esrj"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "Smart Switch (afr25awpvxdwjqtx)",
+        "name": "Smart Switch لمبة سقف",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "110fd0f74c0b8aaa47a91fc51bfe6d84",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "2f523748f6efa3be6bb39bbdc00bca0a"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "forecast_solar",
+            "2f523748f6efa3be6bb39bbdc00bca0a"
+          ]
+        ],
+        "manufacturer": "Forecast.Solar",
+        "model": "public",
+        "name": "Solar production forecast",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "11aae49400fb20efb875c170f479e1d4",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "https://forecast.solar"
+      },
+      {
+        "config_entries": [
+          "93a8bfaa72864ebc84be1a748c5b007c"
+        ],
+        "connections": [
+          [
+            "mac",
+            "cc:32:e5:bc:60:65"
+          ]
+        ],
+        "identifiers": [
+          [
+            "tplink",
+            "cc:32:e5:bc:60:65"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "KL130(EU)",
+        "name": "Tp1 waleed",
+        "sw_version": "1.8.11 Build 191113 Rel.105336",
+        "hw_version": "1.0",
+        "entry_type": null,
+        "id": "3c53d699772354145c638c8d7339bc15",
+        "via_device_id": null,
+        "area_id": "waleed_room",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "cd1e26a1e62b72963d527a69481d5eb9"
+        ],
+        "connections": [
+          [
+            "mac",
+            "cc:32:e5:a2:fc:40"
+          ]
+        ],
+        "identifiers": [
+          [
+            "tplink",
+            "cc:32:e5:a2:fc:40"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "KL130(EU)",
+        "name": "Tp2 waleed",
+        "sw_version": "1.8.11 Build 191113 Rel.105336",
+        "hw_version": "1.0",
+        "entry_type": null,
+        "id": "e4467ad45be89eb6d85e42631cab70fe",
+        "via_device_id": null,
+        "area_id": "waleed_room",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "8abc83f46f6a55035b7c5c037cc2b877"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mobile_app",
+            "A59D24B7-8497-4875-BE86-CD603B64729D"
+          ]
+        ],
+        "manufacturer": "Apple",
+        "model": "iPad13,8",
+        "name": "Ipad 12.9 Pro ",
+        "sw_version": "15.6.1",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "93e203360adc9f255ec565029d9afb8d",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      }
+    ],
+    "deleted_devices": [
+      {
+        "config_entries": [
+          "96012b6168abc2bbf4e7ba12c0b392b8"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "bf09deb6716b72ca30hpuy"
+          ]
+        ],
+        "id": "9843ca10b3227e4ee991304d92d4b116",
+        "orphaned_timestamp": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,756 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "core.restore_state",
+  "data": [
+    {
+      "state": {
+        "entity_id": "person.w360",
+        "state": "home",
+        "attributes": {
+          "editable": false,
+          "id": "w360",
+          "latitude": 24.771438598632812,
+          "longitude": 46.80768130187252,
+          "gps_accuracy": 4.742496297999795,
+          "source": "device_tracker.iphone_13_pro_max_wlyd",
+          "user_id": "dd68f9c61d0d4895b6dbab3c8f104146",
+          "friendly_name": "w360"
+        },
+        "last_changed": "2022-08-23T07:38:01.764740+00:00",
+        "last_updated": "2022-08-23T07:38:08.364640+00:00",
+        "context": {
+          "id": "01GB4T693CZN3FVHNBPPYGX6YD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_battery_level",
+        "state": "80",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-80",
+          "friendly_name": "Ipad 12.9 Pro  Battery Level"
+        },
+        "last_changed": "2022-08-23T12:05:32.358277+00:00",
+        "last_updated": "2022-08-23T12:05:32.358277+00:00",
+        "context": {
+          "id": "01GB59FX26NHVX04MQWQZMMANT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 80,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery-80",
+          "friendly_name": "Ipad 12.9 Pro  Battery State"
+        },
+        "last_changed": "2022-08-23T07:38:03.144437+00:00",
+        "last_updated": "2022-08-23T07:38:03.144437+00:00",
+        "context": {
+          "id": "01GB4T6408XVA70SN301M5H1ZW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_storage",
+        "state": "91.46",
+        "attributes": {
+          "Available": "187.13 غ.ب.",
+          "Available (Important)": "234.71 غ.ب.",
+          "Available (Opportunistic)": "234.09 غ.ب.",
+          "Total": "255.94 غ.ب.",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "Ipad 12.9 Pro  Storage"
+        },
+        "last_changed": "2022-08-23T12:33:23.054488+00:00",
+        "last_updated": "2022-08-23T12:33:23.054488+00:00",
+        "context": {
+          "id": "01GB5B2WKE5A8TVXNADKHFHT1N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "91.46",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "Ipad 12.9 Pro  Connection Type"
+        },
+        "last_changed": "2022-08-23T07:38:03.144653+00:00",
+        "last_updated": "2022-08-23T07:38:03.144653+00:00",
+        "context": {
+          "id": "01GB4T640861DKYN3KQQFXQWCG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_ssid",
+        "state": "WS_5G",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "Ipad 12.9 Pro  SSID"
+        },
+        "last_changed": "2022-08-23T12:05:32.358722+00:00",
+        "last_updated": "2022-08-23T12:05:32.358722+00:00",
+        "context": {
+          "id": "01GB59FX26216PTT95FNKPM2BN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "WS_5G",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_bssid",
+        "state": "0:11:32:e3:d8:4f",
+        "attributes": {
+          "icon": "mdi:wifi-star",
+          "friendly_name": "Ipad 12.9 Pro  BSSID"
+        },
+        "last_changed": "2022-08-23T12:05:32.358848+00:00",
+        "last_updated": "2022-08-23T12:05:32.358848+00:00",
+        "context": {
+          "id": "01GB59FX26T0QWCK88JT1FRT7A",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "0:11:32:e3:d8:4f",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_geocoded_location",
+        "state": "6431 شارع الناصرية حي الخليج\nالرياض 13224\nالمملكة العربية السعودية",
+        "attributes": {
+          "Administrative Area": "الرياض",
+          "Areas Of Interest": "N/A",
+          "Country": "المملكة العربية السعودية",
+          "Inland Water": "N/A",
+          "ISO Country Code": "SA",
+          "Locality": "الرياض",
+          "Location": [
+            24.771248501221265,
+            46.80876930016334
+          ],
+          "Name": "6431 شارع الناصرية",
+          "Ocean": "N/A",
+          "Postal Code": "13224",
+          "Sub Administrative Area": "N/A",
+          "Sub Locality": "حي الخليج",
+          "Sub Thoroughfare": "6431",
+          "Thoroughfare": "شارع الناصرية",
+          "Time Zone": "Asia/Riyadh",
+          "Zones": [
+            "Abo Rami Home"
+          ],
+          "icon": "mdi:map",
+          "friendly_name": "Ipad 12.9 Pro  Geocoded Location"
+        },
+        "last_changed": "2022-08-23T07:38:03.144919+00:00",
+        "last_updated": "2022-08-23T07:38:03.144919+00:00",
+        "context": {
+          "id": "01GB4T64088E4KCNG3D3369DGA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "6431 شارع الناصرية حي الخليج\nالرياض 13224\nالمملكة العربية السعودية",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_last_update_trigger",
+        "state": "Periodic",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "Ipad 12.9 Pro  Last Update Trigger"
+        },
+        "last_changed": "2022-08-23T12:19:31.492606+00:00",
+        "last_updated": "2022-08-23T12:19:31.492606+00:00",
+        "context": {
+          "id": "01GB5A9GH4BX450NVCVNWS1NJZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Periodic",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_activity",
+        "state": "Stationary",
+        "attributes": {
+          "Confidence": "High",
+          "Types": [
+            "Stationary"
+          ],
+          "icon": "mdi:human-male",
+          "friendly_name": "Ipad 12.9 Pro  Activity"
+        },
+        "last_changed": "2022-08-23T07:38:03.145115+00:00",
+        "last_updated": "2022-08-23T07:38:03.145115+00:00",
+        "context": {
+          "id": "01GB4T64090DV2K382Z0VAJJ7Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Stationary",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_activity",
+        "state": "Automotive",
+        "attributes": {
+          "Confidence": "High",
+          "Types": [
+            "Automotive"
+          ],
+          "icon": "mdi:car",
+          "friendly_name": "iPhone 13 Pro Max وليد Activity"
+        },
+        "last_changed": "2022-08-23T07:38:03.145197+00:00",
+        "last_updated": "2022-08-23T07:38:03.145197+00:00",
+        "context": {
+          "id": "01GB4T6409NM2GHWYGN4PW3VCM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Automotive",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_distance",
+        "state": "2419",
+        "attributes": {
+          "unit_of_measurement": "m",
+          "icon": "mdi:hiking",
+          "friendly_name": "iPhone 13 Pro Max وليد Distance"
+        },
+        "last_changed": "2022-08-23T07:38:03.145281+00:00",
+        "last_updated": "2022-08-23T07:38:03.145281+00:00",
+        "context": {
+          "id": "01GB4T6409XQXM5CNSSDV2NRRZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 2419,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": true,
+          "icon": "mdi:battery-70",
+          "friendly_name": "iPhone 13 Pro Max وليد Battery State"
+        },
+        "last_changed": "2022-08-23T07:38:03.145362+00:00",
+        "last_updated": "2022-08-23T07:38:03.145362+00:00",
+        "context": {
+          "id": "01GB4T6409AG0X4CGJE0SHF87H",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_storage",
+        "state": "60.22",
+        "attributes": {
+          "Available": "277.47 GB",
+          "Available (Important)": "323.97 GB",
+          "Available (Opportunistic)": "308.24 GB",
+          "Total": "511.88 GB",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "iPhone 13 Pro Max وليد Storage"
+        },
+        "last_changed": "2022-08-23T07:38:03.145440+00:00",
+        "last_updated": "2022-08-23T07:38:03.145440+00:00",
+        "context": {
+          "id": "01GB4T6409625JEW32H58GQRT3",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "60.22",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_floors_ascended",
+        "state": "3",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-up",
+          "friendly_name": "iPhone 13 Pro Max وليد Floors Ascended"
+        },
+        "last_changed": "2022-08-23T07:38:03.145519+00:00",
+        "last_updated": "2022-08-23T07:38:03.145519+00:00",
+        "context": {
+          "id": "01GB4T640901DRR2Y6P7CPCWC5",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 3,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_ssid",
+        "state": "waleed5G",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "iPhone 13 Pro Max وليد SSID"
+        },
+        "last_changed": "2022-08-23T07:38:03.145597+00:00",
+        "last_updated": "2022-08-23T07:38:03.145597+00:00",
+        "context": {
+          "id": "01GB4T6409A2SB3SA5Q9QMTHQJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "waleed5G",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_floors_descended",
+        "state": "4",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-down",
+          "friendly_name": "iPhone 13 Pro Max وليد Floors Descended"
+        },
+        "last_changed": "2022-08-23T07:38:03.145677+00:00",
+        "last_updated": "2022-08-23T07:38:03.145677+00:00",
+        "context": {
+          "id": "01GB4T64096XWW209REGA7BHB8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 4,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_bssid",
+        "state": "bc:2e:f6:ff:68:b2",
+        "attributes": {
+          "icon": "mdi:wifi-star",
+          "friendly_name": "iPhone 13 Pro Max وليد BSSID"
+        },
+        "last_changed": "2022-08-23T07:38:03.145753+00:00",
+        "last_updated": "2022-08-23T07:38:03.145753+00:00",
+        "context": {
+          "id": "01GB4T6409D5G653J9C03V1CQQ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "bc:2e:f6:ff:68:b2",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "iPhone 13 Pro Max وليد Connection Type"
+        },
+        "last_changed": "2022-08-23T07:38:03.145829+00:00",
+        "last_updated": "2022-08-23T07:38:03.145829+00:00",
+        "context": {
+          "id": "01GB4T6409YMKB74CZR19574FN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_sim_1",
+        "state": "stc",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000001",
+          "Carrier Name": "stc",
+          "Current Radio Technology": "Long-Term Evolution (LTE)",
+          "ISO Country Code": "sa",
+          "Mobile Country Code": "420",
+          "Mobile Network Code": "01",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone 13 Pro Max وليد SIM 1"
+        },
+        "last_changed": "2022-08-23T07:38:03.145906+00:00",
+        "last_updated": "2022-08-23T07:38:03.145906+00:00",
+        "context": {
+          "id": "01GB4T64091JTY97JKMCRJYMFS",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "stc",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_sim_2",
+        "state": "N/A",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000002",
+          "Carrier Name": "N/A",
+          "ISO Country Code": "N/A",
+          "Mobile Country Code": "N/A",
+          "Mobile Network Code": "N/A",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone 13 Pro Max وليد SIM 2"
+        },
+        "last_changed": "2022-08-23T07:38:03.145983+00:00",
+        "last_updated": "2022-08-23T07:38:03.145983+00:00",
+        "context": {
+          "id": "01GB4T6409W0XPTR89JPWAG3GM",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "N/A",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_geocoded_location",
+        "state": "3287 شارع الناصرة - حي الخليج حي الخليج\nالرياض 13224\nالسعودية",
+        "attributes": {
+          "Administrative Area": "منطقة الرياض",
+          "Areas Of Interest": "N/A",
+          "Country": "السعودية",
+          "Inland Water": "N/A",
+          "ISO Country Code": "SA",
+          "Locality": "الرياض",
+          "Location": [
+            24.771438598632812,
+            46.80768130187252
+          ],
+          "Name": "3287 شارع الناصرة - حي الخليج",
+          "Ocean": "N/A",
+          "Postal Code": "13224",
+          "Sub Administrative Area": "الرياض",
+          "Sub Locality": "حي الخليج",
+          "Sub Thoroughfare": "3287",
+          "Thoroughfare": "شارع الناصرة",
+          "Time Zone": "Asia/Riyadh",
+          "Zones": [
+            "Abo Rami Home"
+          ],
+          "icon": "mdi:map",
+          "friendly_name": "iPhone 13 Pro Max وليد Geocoded Location"
+        },
+        "last_changed": "2022-08-23T07:38:03.146059+00:00",
+        "last_updated": "2022-08-23T07:38:03.146059+00:00",
+        "context": {
+          "id": "01GB4T640AN73GHK3QV4W45A1C",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "3287 شارع الناصرة - حي الخليج حي الخليج\nالرياض 13224\nالسعودية",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_last_update_trigger",
+        "state": "Geographic Region Entered",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "iPhone 13 Pro Max وليد Last Update Trigger"
+        },
+        "last_changed": "2022-08-23T07:38:03.146144+00:00",
+        "last_updated": "2022-08-23T07:38:03.146144+00:00",
+        "context": {
+          "id": "01GB4T640AZHHD7TBS8T53ASPJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Geographic Region Entered",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_battery_level",
+        "state": "77",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-70",
+          "friendly_name": "iPhone 13 Pro Max وليد Battery Level"
+        },
+        "last_changed": "2022-08-23T07:38:03.146235+00:00",
+        "last_updated": "2022-08-23T07:38:03.146235+00:00",
+        "context": {
+          "id": "01GB4T640AQG9TJHM7KF8D67RP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 77,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_steps",
+        "state": "3689",
+        "attributes": {
+          "unit_of_measurement": "steps",
+          "icon": "mdi:walk",
+          "friendly_name": "iPhone 13 Pro Max وليد Steps"
+        },
+        "last_changed": "2022-08-23T07:38:03.146315+00:00",
+        "last_updated": "2022-08-23T07:38:03.146315+00:00",
+        "context": {
+          "id": "01GB4T640AHM6C3QXYEF7QZVE6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 3689,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_average_active_pace",
+        "state": "1",
+        "attributes": {
+          "unit_of_measurement": "m/s",
+          "icon": "mdi:speedometer",
+          "friendly_name": "iPhone 13 Pro Max وليد Average Active Pace"
+        },
+        "last_changed": "2022-08-23T07:38:03.146393+00:00",
+        "last_updated": "2022-08-23T07:38:03.146393+00:00",
+        "context": {
+          "id": "01GB4T640AP97NYXTG9AX10TX1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.ipad_12_9_pro",
+        "state": "home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 100,
+          "latitude": 24.771248501221265,
+          "longitude": 46.80876930016334,
+          "gps_accuracy": 6.104016418120359,
+          "altitude": 596.1389255523682,
+          "vertical_accuracy": 37.48439025878906,
+          "friendly_name": "Ipad 12.9 Pro "
+        },
+        "last_changed": "2022-08-23T07:38:03.160511+00:00",
+        "last_updated": "2022-08-23T07:38:03.160511+00:00",
+        "context": {
+          "id": "01GB4T640RAQWE3WX31SQDGD7S",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.iphone_13_pro_max_wlyd",
+        "state": "home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 77,
+          "latitude": 24.771438598632812,
+          "longitude": 46.80768130187252,
+          "gps_accuracy": 4.742496297999795,
+          "altitude": 596.9203831935301,
+          "course": 55.53325972195143,
+          "speed": 5.968024274138135,
+          "vertical_accuracy": 3.366491630206004,
+          "friendly_name": "iPhone 13 Pro Max وليد"
+        },
+        "last_changed": "2022-08-23T07:38:03.160798+00:00",
+        "last_updated": "2022-08-23T07:38:03.160798+00:00",
+        "context": {
+          "id": "01GB4T640RCMC9CV0D7K54A3J4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.ipad_12_9_pro_focus",
+        "state": "off",
+        "attributes": {
+          "icon": "mdi:moon-waning-crescent",
+          "friendly_name": "Ipad 12.9 Pro  Focus"
+        },
+        "last_changed": "2022-08-23T07:38:03.160965+00:00",
+        "last_updated": "2022-08-23T07:38:03.160965+00:00",
+        "context": {
+          "id": "01GB4T640R7MFYQN9R55M96117",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.iphone_13_pro_max_wlyd_focus",
+        "state": "off",
+        "attributes": {
+          "icon": "mdi:moon-waning-crescent",
+          "friendly_name": "iPhone 13 Pro Max وليد Focus"
+        },
+        "last_changed": "2022-08-23T07:38:03.161114+00:00",
+        "last_updated": "2022-08-23T07:38:03.161114+00:00",
+        "context": {
+          "id": "01GB4T640SPNE6THRBNVCJ8GM1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+    }
+  ]
+}
