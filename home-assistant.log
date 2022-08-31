@@ -1,3 +1,14 @@
-2022-08-23 10:38:01.778 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
-2022-08-23 12:37:06.869 ERROR (Thread-5) [tuya_iot] error while get mqtt config
-2022-08-23 14:36:08.561 ERROR (Thread-5) [tuya_iot] error while get mqtt config
+2022-08-29 15:34:05.977 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration hacs which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-08-29 15:34:06.001 WARNING (SyncWorker_1) [homeassistant.loader] We found a custom integration eufy_security which has not been tested by Home Assistant. This component might cause stability problems, be sure to disable it if you experience issues with Home Assistant
+2022-08-29 15:34:13.195 WARNING (Recorder) [homeassistant.components.recorder.util] The system could not validate that the sqlite3 database at //config/home-assistant_v2.db was shutdown cleanly
+2022-08-29 15:34:13.528 WARNING (Recorder) [homeassistant.components.recorder.util] Ended unfinished session (id=14 from 2022-08-29 06:00:38.790691)
+2022-08-29 18:55:30.007 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.100.145 data: Unable to connect to the device: 192.168.100.145: 
+2022-08-29 18:55:32.006 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.100.146 data: Unable to connect to the device: 192.168.100.146: 
+2022-08-29 21:11:04.004 ERROR (MainThread) [metno] Access to https://aa015h6buqvih86i1.api.met.no/weatherapi/locationforecast/2.0/complete returned error 'TimeoutError'
+2022-08-29 21:11:04.034 ERROR (MainThread) [homeassistant.components.met] Error fetching met data: Update failed: 
+2022-08-29 21:29:56.005 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.100.145 data: Unable to connect to the device: 192.168.100.145: 
+2022-08-29 21:29:57.008 ERROR (MainThread) [homeassistant.components.tplink.coordinator] Error fetching 192.168.100.146 data: Unable to connect to the device: 192.168.100.146: 
+2022-08-30 09:06:09.578 WARNING (MainThread) [homeassistant.helpers.state] Integration weather does not support reproduce state
+2022-08-30 12:49:22.372 WARNING (Thread-2 (_thread_main)) [homeassistant.components.mqtt.client] Disconnected from MQTT server core-mosquitto:1883 (7)
+2022-08-31 14:19:23.892 ERROR (MainThread) [homeassistant.components.hassio.handler] /ingress/validate_session return code 401
+2022-08-31 14:19:23.915 ERROR (MainThread) [homeassistant.components.hassio] Failed to to call /ingress/validate_session - 

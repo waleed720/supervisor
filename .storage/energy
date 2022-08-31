@@ -6,22 +6,17 @@
     "energy_sources": [
       {
         "type": "grid",
-        "flow_from": [
-          {
-            "stat_energy_from": "sensor.njf_grf_wlydr_today_s_consumption",
-            "stat_cost": "sensor.njf_grf_wlydr_today_s_consumption",
-            "entity_energy_from": "sensor.njf_grf_wlydr_today_s_consumption",
-            "entity_energy_price": null,
-            "number_energy_price": null
-          }
-        ],
+        "flow_from": [],
         "flow_to": [],
         "cost_adjustment_day": 0.0
       }
     ],
     "device_consumption": [
       {
-        "stat_consumption": "sensor.njf_grf_wlydr_today_s_consumption"
+        "stat_consumption": "sensor.tp1_waleed_today_s_consumption"
+      },
+      {
+        "stat_consumption": "sensor.tp2_waleed_today_s_consumption"
       }
     ]
   }

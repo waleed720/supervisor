@@ -6,22 +6,22 @@
     "devices": [
       {
         "config_entries": [
-          "f268e145ced3aaaf75f627576fb32190"
+          "374b2801d4122214b924938d4210ca4d"
         ],
         "connections": [],
         "identifiers": [
           [
-            "cast",
-            "b07586082719781b0161bbd36046351a"
+            "hassio",
+            "core"
           ]
         ],
-        "manufacturer": "Google Inc.",
-        "model": "Chromecast",
-        "name": "تلفزيون",
-        "sw_version": null,
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Core",
+        "name": "Home Assistant Core",
+        "sw_version": "2022.8.7",
         "hw_version": null,
-        "entry_type": null,
-        "id": "ef3e8c22a470435a47bb5971ac03bde5",
+        "entry_type": "service",
+        "id": "7efb8e6328affbe9970098852c952a55",
         "via_device_id": null,
         "area_id": null,
         "name_by_user": null,
@@ -30,7 +30,55 @@
       },
       {
         "config_entries": [
-          "e708f168edbbf35a9da28a6802175abd"
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "supervisor"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Supervisor",
+        "name": "Home Assistant Supervisor",
+        "sw_version": "2022.08.3",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "517f52e311c9b7e404c4c7b75ef261da",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "OS"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Operating System",
+        "name": "Home Assistant Operating System",
+        "sw_version": "8.5",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "2ba600477153592062df35719321cf69",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "34aa5be1efea3a80614eb18bf08883b4"
         ],
         "connections": [],
         "identifiers": [
@@ -44,7 +92,7 @@
         "sw_version": null,
         "hw_version": null,
         "entry_type": "service",
-        "id": "9c4550e5a80831234f68015c0bbf6c55",
+        "id": "90213068853764d545cf5c853a2d2f4c",
         "via_device_id": null,
         "area_id": null,
         "name_by_user": null,
@@ -53,37 +101,79 @@
       },
       {
         "config_entries": [
-          "cc5849fd4f7318d8fb5dd37467bc586f"
+          "374b2801d4122214b924938d4210ca4d"
         ],
-        "connections": [
-          [
-            "mac",
-            "62:17:e0:6a:c3:55"
-          ]
-        ],
+        "connections": [],
         "identifiers": [
           [
-            "homekit",
-            "cc5849fd4f7318d8fb5dd37467bc586f",
-            "homekit.bridge"
+            "hassio",
+            "a0d7b954_nodered"
           ]
         ],
-        "manufacturer": "Home Assistant",
-        "model": "HomeKit Bridge",
-        "name": "HASS Bridge:21064",
-        "sw_version": null,
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Node-RED",
+        "sw_version": "13.3.2",
         "hw_version": null,
         "entry_type": "service",
-        "id": "5b9a403cecd18aa318dc955af61db101",
+        "id": "bf4f41ac6b0fdd5e441b94c327fa1ee4",
         "via_device_id": null,
         "area_id": null,
         "name_by_user": null,
         "disabled_by": null,
-        "configuration_url": null
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_nodered"
       },
       {
         "config_entries": [
-          "a7e00c13f34940d8507b5745409922b6"
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_mosquitto"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Mosquitto broker",
+        "sw_version": "6.1.2",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "d25f06128e70a632cee554b50eb69ad8",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/core_mosquitto"
+      },
+      {
+        "config_entries": [
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_tailscale"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Tailscale",
+        "sw_version": "0.7.0",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "04d8943bf55f51e3144a21ff795e695d",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_tailscale"
+      },
+      {
+        "config_entries": [
+          "eacf0ca76abef544218cce3bbbe19c53"
         ],
         "connections": [],
         "identifiers": [
@@ -98,7 +188,7 @@
         "sw_version": "15.6.1",
         "hw_version": null,
         "entry_type": null,
-        "id": "2de1a916186ec6c3818eb16f63bbda65",
+        "id": "1fa1c5c3482eccaa0d4b75eb391975ad",
         "via_device_id": null,
         "area_id": null,
         "name_by_user": null,
@@ -107,31 +197,7 @@
       },
       {
         "config_entries": [
-          "96012b6168abc2bbf4e7ba12c0b392b8"
-        ],
-        "connections": [],
-        "identifiers": [
-          [
-            "tuya",
-            "bf6cfbc1bc0729be94vjqv"
-          ]
-        ],
-        "manufacturer": "Tuya",
-        "model": "Smart Switch (afr25awpvxdwjqtx)",
-        "name": "Smart Switchابجورة ",
-        "sw_version": null,
-        "hw_version": null,
-        "entry_type": null,
-        "id": "68a35193e51aea187e0174669d170231",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": null
-      },
-      {
-        "config_entries": [
-          "96012b6168abc2bbf4e7ba12c0b392b8"
+          "b2bd6ffd71f0e048d2f78eb819482e50"
         ],
         "connections": [],
         "identifiers": [
@@ -146,69 +212,40 @@
         "sw_version": null,
         "hw_version": null,
         "entry_type": null,
-        "id": "110fd0f74c0b8aaa47a91fc51bfe6d84",
+        "id": "574257f98bcd639602c6d69478af861f",
         "via_device_id": null,
-        "area_id": null,
+        "area_id": "living_room",
         "name_by_user": null,
         "disabled_by": null,
         "configuration_url": null
       },
       {
         "config_entries": [
-          "2f523748f6efa3be6bb39bbdc00bca0a"
+          "b2bd6ffd71f0e048d2f78eb819482e50"
         ],
         "connections": [],
         "identifiers": [
           [
-            "forecast_solar",
-            "2f523748f6efa3be6bb39bbdc00bca0a"
+            "tuya",
+            "bf6cfbc1bc0729be94vjqv"
           ]
         ],
-        "manufacturer": "Forecast.Solar",
-        "model": "public",
-        "name": "Solar production forecast",
+        "manufacturer": "Tuya",
+        "model": "Smart Switch (afr25awpvxdwjqtx)",
+        "name": "Smart Switchابجورة ",
         "sw_version": null,
         "hw_version": null,
-        "entry_type": "service",
-        "id": "11aae49400fb20efb875c170f479e1d4",
-        "via_device_id": null,
-        "area_id": null,
-        "name_by_user": null,
-        "disabled_by": null,
-        "configuration_url": "https://forecast.solar"
-      },
-      {
-        "config_entries": [
-          "93a8bfaa72864ebc84be1a748c5b007c"
-        ],
-        "connections": [
-          [
-            "mac",
-            "cc:32:e5:bc:60:65"
-          ]
-        ],
-        "identifiers": [
-          [
-            "tplink",
-            "cc:32:e5:bc:60:65"
-          ]
-        ],
-        "manufacturer": "TP-Link",
-        "model": "KL130(EU)",
-        "name": "Tp1 waleed",
-        "sw_version": "1.8.11 Build 191113 Rel.105336",
-        "hw_version": "1.0",
         "entry_type": null,
-        "id": "3c53d699772354145c638c8d7339bc15",
+        "id": "0afa15cb8ea6631ef98a2cec7b5aef1b",
         "via_device_id": null,
-        "area_id": "waleed_room",
+        "area_id": "living_room",
         "name_by_user": null,
         "disabled_by": null,
         "configuration_url": null
       },
       {
         "config_entries": [
-          "cd1e26a1e62b72963d527a69481d5eb9"
+          "ae39306b3780a3738e734de9074acdcf"
         ],
         "connections": [
           [
@@ -228,16 +265,147 @@
         "sw_version": "1.8.11 Build 191113 Rel.105336",
         "hw_version": "1.0",
         "entry_type": null,
-        "id": "e4467ad45be89eb6d85e42631cab70fe",
+        "id": "43227e9308d19fd96a9171acd668893c",
         "via_device_id": null,
-        "area_id": "waleed_room",
+        "area_id": "living_room",
         "name_by_user": null,
         "disabled_by": null,
         "configuration_url": null
       },
       {
         "config_entries": [
-          "8abc83f46f6a55035b7c5c037cc2b877"
+          "3634bb419174d66ffe02f6f3145ab412"
+        ],
+        "connections": [
+          [
+            "mac",
+            "cc:32:e5:bc:60:65"
+          ]
+        ],
+        "identifiers": [
+          [
+            "tplink",
+            "cc:32:e5:bc:60:65"
+          ]
+        ],
+        "manufacturer": "TP-Link",
+        "model": "KL130(EU)",
+        "name": "Tp1 waleed",
+        "sw_version": "1.8.11 Build 191113 Rel.105336",
+        "hw_version": "1.0",
+        "entry_type": null,
+        "id": "28dc75a3df8aa313abe837018d4e050c",
+        "via_device_id": null,
+        "area_id": "living_room",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_adguard"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "AdGuard Home",
+        "sw_version": "4.7.3",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "8aa60f6cbe65dbdb9b0bdff5eeaccc24",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_adguard"
+      },
+      {
+        "config_entries": [
+          "aef1166211ef6449c91a0921e2662353"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "cast",
+            "b07586082719781b0161bbd36046351a"
+          ]
+        ],
+        "manufacturer": "Google Inc.",
+        "model": "Chromecast",
+        "name": "تلفزيون",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "fc8739944f9943fa51b248f1b14ee650",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "b2bd6ffd71f0e048d2f78eb819482e50"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "53137004bcff4d8079c3"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "Smart Switch L821X (xmLOh8ZKxKsg5bRZ)",
+        "name": "Smart Switch L821X مكيف غرفتي",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "3a96b768e5c605bdddae26daab76dbd4",
+        "via_device_id": null,
+        "area_id": "living_room",
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a88ad0f4f05ee168640a4a4b897e8fd4"
+        ],
+        "connections": [
+          [
+            "mac",
+            "d4:fc:5e:6f:9d:2b"
+          ]
+        ],
+        "identifiers": [
+          [
+            "homekit",
+            "a88ad0f4f05ee168640a4a4b897e8fd4",
+            "homekit.bridge"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "HomeKit Bridge",
+        "name": "HASS Bridge:21064",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "5b7e13c7bcfff2ed813b705852d19355",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "6bb4713c9257847befd0b118c0135d91"
         ],
         "connections": [],
         "identifiers": [
@@ -252,7 +420,727 @@
         "sw_version": "15.6.1",
         "hw_version": null,
         "entry_type": null,
-        "id": "93e203360adc9f255ec565029d9afb8d",
+        "id": "e3d37f467ee726104f1d95429cd6d0c9",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "1ce4c3081176dc2297406f224b036091"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hacs",
+            "0717a0cd-745c-48fd-9b16-c8534c9704f9-bc944b0f-fd42-4a58-a072-ade38d1444cd"
+          ]
+        ],
+        "manufacturer": "hacs.xyz",
+        "model": "",
+        "name": "HACS",
+        "sw_version": "1.27.1",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "f3b3e3c687f6e1d136b75d44cf4c1e9e",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hacs"
+      },
+      {
+        "config_entries": [
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_vscode"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Studio Code Server",
+        "sw_version": "5.3.0",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "6ba3ecc21517016b74cae7bb21caf3b0",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_vscode"
+      },
+      {
+        "config_entries": [
+          "a53685d1bb43760c72be0843d05523ff"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RVR1W9TQK"
+          ]
+        ],
+        "manufacturer": "Synology",
+        "model": "DS1621xs+",
+        "name": "w360",
+        "sw_version": "DSM 7.1-42661 Update 4",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "dcbf3b705c0a6e770c0cb21b982225c7",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.100.130:5000"
+      },
+      {
+        "config_entries": [
+          "a53685d1bb43760c72be0843d05523ff"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RVR1W9TQK_sda"
+          ]
+        ],
+        "manufacturer": "Seagate",
+        "model": "ST4000NE001-2MA101",
+        "name": "w360 (Drive 1)",
+        "sw_version": "EN01",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "89ed379b02741be96bfddd9412ddd041",
+        "via_device_id": "dcbf3b705c0a6e770c0cb21b982225c7",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.100.130:5000"
+      },
+      {
+        "config_entries": [
+          "a53685d1bb43760c72be0843d05523ff"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RVR1W9TQK_sdb"
+          ]
+        ],
+        "manufacturer": "Seagate",
+        "model": "ST4000NE001-2MA101",
+        "name": "w360 (Drive 2)",
+        "sw_version": "EN01",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "2ed596b4a8cb1be085f776e51df18e7c",
+        "via_device_id": "dcbf3b705c0a6e770c0cb21b982225c7",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.100.130:5000"
+      },
+      {
+        "config_entries": [
+          "a53685d1bb43760c72be0843d05523ff"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RVR1W9TQK_sdc"
+          ]
+        ],
+        "manufacturer": "Seagate",
+        "model": "ST4000NE001-2MA101",
+        "name": "w360 (Drive 3)",
+        "sw_version": "EN01",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "60ad25848d6baf008a86bc43fd6aef21",
+        "via_device_id": "dcbf3b705c0a6e770c0cb21b982225c7",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.100.130:5000"
+      },
+      {
+        "config_entries": [
+          "a53685d1bb43760c72be0843d05523ff"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RVR1W9TQK_sdd"
+          ]
+        ],
+        "manufacturer": "Seagate",
+        "model": "ST4000NE001-2MA101",
+        "name": "w360 (Drive 4)",
+        "sw_version": "EN01",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "798804155f0b937fb1990dd9870c61d7",
+        "via_device_id": "dcbf3b705c0a6e770c0cb21b982225c7",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.100.130:5000"
+      },
+      {
+        "config_entries": [
+          "a53685d1bb43760c72be0843d05523ff"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RVR1W9TQK_sde"
+          ]
+        ],
+        "manufacturer": "Seagate",
+        "model": "ST4000NE001-2MA101",
+        "name": "w360 (Drive 5)",
+        "sw_version": "EN01",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "0dc2a3f075bf317a91a6cbd847ad0514",
+        "via_device_id": "dcbf3b705c0a6e770c0cb21b982225c7",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.100.130:5000"
+      },
+      {
+        "config_entries": [
+          "a53685d1bb43760c72be0843d05523ff"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RVR1W9TQK_sdf"
+          ]
+        ],
+        "manufacturer": "Seagate",
+        "model": "ST4000NE001-2MA101",
+        "name": "w360 (Drive 6)",
+        "sw_version": "EN01",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "16bbf174d9ea00ee76b8b5b562e06a1b",
+        "via_device_id": "dcbf3b705c0a6e770c0cb21b982225c7",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.100.130:5000"
+      },
+      {
+        "config_entries": [
+          "a53685d1bb43760c72be0843d05523ff"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RVR1W9TQK_nvme0n1"
+          ]
+        ],
+        "manufacturer": "Synology",
+        "model": "SNV3400-400G",
+        "name": "w360 (Cache device 2)",
+        "sw_version": "ECEM12.4",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "1e8680e6bbc065da84c8cb179c919db8",
+        "via_device_id": "dcbf3b705c0a6e770c0cb21b982225c7",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.100.130:5000"
+      },
+      {
+        "config_entries": [
+          "a53685d1bb43760c72be0843d05523ff"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RVR1W9TQK_nvme1n1"
+          ]
+        ],
+        "manufacturer": "Synology",
+        "model": "SNV3400-400G",
+        "name": "w360 (Cache device 1)",
+        "sw_version": "ECEM12.4",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "05c5857103527dd31770aacc290edde8",
+        "via_device_id": "dcbf3b705c0a6e770c0cb21b982225c7",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.100.130:5000"
+      },
+      {
+        "config_entries": [
+          "a53685d1bb43760c72be0843d05523ff"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RVR1W9TQK_volume_1"
+          ]
+        ],
+        "manufacturer": "Synology",
+        "model": "DS1621xs+",
+        "name": "w360 (Volume 1)",
+        "sw_version": "DSM 7.1-42661 Update 4",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "2fdc80320bbf8d82e4c24b5bb1448923",
+        "via_device_id": "dcbf3b705c0a6e770c0cb21b982225c7",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "http://192.168.100.130:5000"
+      },
+      {
+        "config_entries": [
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_grafana"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "Grafana",
+        "sw_version": "7.6.0",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "89d6f9ce6af87f5be860711172723182",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_grafana"
+      },
+      {
+        "config_entries": [
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "3a26b21d_eufy_security_addon"
+          ]
+        ],
+        "manufacturer": "Eufy Security WS Addon",
+        "model": "Home Assistant Add-on",
+        "name": "Eufy Security Add-on",
+        "sw_version": "0.9.4",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "9b64580b409efca784bfd7da9c046a72",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/3a26b21d_eufy_security_addon"
+      },
+      {
+        "config_entries": [
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "75a80a57_rtsp_simple_server"
+          ]
+        ],
+        "manufacturer": "RTSP Simple Server Addon",
+        "model": "Home Assistant Add-on",
+        "name": "RTSP Simple Server Add-on",
+        "sw_version": "v0.17.6",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "062eb95bf3dc888adf4991464d38c210",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/75a80a57_rtsp_simple_server"
+      },
+      {
+        "config_entries": [
+          "c0627e1fdcf10a39026e20ed04c19e41"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "COOLERMASTER-PC_CPU"
+          ]
+        ],
+        "manufacturer": "IOTLink 2.2.2.0",
+        "model": "WORKGROUP",
+        "name": "COOLERMASTER-PC CPU",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "fdbfa49426f618f6d2da05dd49819d2b",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c0627e1fdcf10a39026e20ed04c19e41"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "COOLERMASTER-PC_Memory"
+          ]
+        ],
+        "manufacturer": "IOTLink 2.2.2.0",
+        "model": "WORKGROUP",
+        "name": "COOLERMASTER-PC Memory",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "3352cdb477d1e979d6c4bded86d82a1b",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c0627e1fdcf10a39026e20ed04c19e41"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "COOLERMASTER-PC_Power"
+          ]
+        ],
+        "manufacturer": "IOTLink 2.2.2.0",
+        "model": "WORKGROUP",
+        "name": "COOLERMASTER-PC Power",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "f3a786e2d99eabb121869ae78e9b3529",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c0627e1fdcf10a39026e20ed04c19e41"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "COOLERMASTER-PC_NetworkInfo"
+          ]
+        ],
+        "manufacturer": "IOTLink 2.2.2.0",
+        "model": "WORKGROUP",
+        "name": "COOLERMASTER-PC NetworkInfo",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "1bd28f47e365983d4f5af09b6bc953de",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c0627e1fdcf10a39026e20ed04c19e41"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "COOLERMASTER-PC_HardDrive"
+          ]
+        ],
+        "manufacturer": "IOTLink 2.2.2.0",
+        "model": "WORKGROUP",
+        "name": "COOLERMASTER-PC HardDrive",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "7edd8f7c6cde8111d948863a6cf0cd46",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c0627e1fdcf10a39026e20ed04c19e41"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "COOLERMASTER-PC_SystemInfo"
+          ]
+        ],
+        "manufacturer": "IOTLink 2.2.2.0",
+        "model": "WORKGROUP",
+        "name": "COOLERMASTER-PC SystemInfo",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "6273f6cebe6c8b5601146053f29008fb",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c0627e1fdcf10a39026e20ed04c19e41"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "COOLERMASTER-PC_Uptime"
+          ]
+        ],
+        "manufacturer": "IOTLink 2.2.2.0",
+        "model": "WORKGROUP",
+        "name": "COOLERMASTER-PC Uptime",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "e315597436bf2ab59d341d47678f9506",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "a53685d1bb43760c72be0843d05523ff"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "synology_dsm",
+            "2150RVR1W9TQK_SYNO.SurveillanceStation.Info"
+          ]
+        ],
+        "manufacturer": "Synology",
+        "model": "DS1621xs+",
+        "name": "w360 Surveillance Station",
+        "sw_version": "9.0.1-7673",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "12566f31c1d4dbb646c052a8ec058abf",
+        "via_device_id": "dcbf3b705c0a6e770c0cb21b982225c7",
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c0627e1fdcf10a39026e20ed04c19e41"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "COOLERMASTER-PC_Display-Info"
+          ]
+        ],
+        "manufacturer": "IOTLink 2.2.2.0",
+        "model": "WORKGROUP",
+        "name": "COOLERMASTER-PC Display-Info",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "d4be686475c9c8da8bf887bbd160e68a",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "c0627e1fdcf10a39026e20ed04c19e41"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "mqtt",
+            "COOLERMASTER-PC_Display-Screenshot"
+          ]
+        ],
+        "manufacturer": "IOTLink 2.2.2.0",
+        "model": "WORKGROUP",
+        "name": "COOLERMASTER-PC Display-Screenshot",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "52328398e97f87f9820dea1e9721c8e2",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "eb1e6b9eaf5a46d7c8fee588625f0587"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "webostv",
+            "e2657baf-95b0-7613-7514-ccdc4695206f"
+          ]
+        ],
+        "manufacturer": "LG",
+        "model": "OLED55CXPVA",
+        "name": "[LG] webOS TV OLED55CXPVA",
+        "sw_version": "04.40.10",
+        "hw_version": null,
+        "entry_type": null,
+        "id": "9746ba19b2e0dcd4bd2340f884c7f2a5",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "5c53de3b_esphome"
+          ]
+        ],
+        "manufacturer": "ESPHome",
+        "model": "Home Assistant Add-on",
+        "name": "ESPHome",
+        "sw_version": "2022.8.0",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "1fc35c494d33bd8ebfcd0edf285868b8",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/5c53de3b_esphome"
+      },
+      {
+        "config_entries": [
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "f4f71350_ewelink_smart_home_slug"
+          ]
+        ],
+        "manufacturer": "eWeLink add-ons",
+        "model": "Home Assistant Add-on",
+        "name": "eWeLink Smart Home",
+        "sw_version": "1.2.9",
+        "hw_version": null,
+        "entry_type": "service",
+        "id": "da3d5a5704be2fae43c93d61807f0174",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": "homeassistant://hassio/addon/f4f71350_ewelink_smart_home_slug"
+      },
+      {
+        "config_entries": [
+          "b2bd6ffd71f0e048d2f78eb819482e50"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "bff5c5855b033e7cdfgqxw"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "WIFI门磁 (5etnzhfidcmm0ang)",
+        "name": "مستشعر الاتصال",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "8b3c3893e20858187aa2140b8a2a95ed",
+        "via_device_id": null,
+        "area_id": null,
+        "name_by_user": null,
+        "disabled_by": null,
+        "configuration_url": null
+      },
+      {
+        "config_entries": [
+          "b2bd6ffd71f0e048d2f78eb819482e50"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "tuya",
+            "bf4d6d23adea3b2e8eannz"
+          ]
+        ],
+        "manufacturer": "Tuya",
+        "model": "Smart power strip UK (b1koh6rsojg6hggw)",
+        "name": "Smart power strip UK",
+        "sw_version": null,
+        "hw_version": null,
+        "entry_type": null,
+        "id": "e6f265e7c937b6bb615fe3c194cb23f0",
         "via_device_id": null,
         "area_id": null,
         "name_by_user": null,
@@ -263,16 +1151,58 @@
     "deleted_devices": [
       {
         "config_entries": [
-          "96012b6168abc2bbf4e7ba12c0b392b8"
+          "374b2801d4122214b924938d4210ca4d"
         ],
         "connections": [],
         "identifiers": [
           [
-            "tuya",
-            "bf09deb6716b72ca30hpuy"
+            "hassio",
+            "core_mariadb"
           ]
         ],
-        "id": "9843ca10b3227e4ee991304d92d4b116",
+        "id": "a8ad2a075fcfbad908a027961b8f35f5",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_home-panel"
+          ]
+        ],
+        "id": "fc2da755fe5d95ac1e4de19bac58be2e",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "core_configurator"
+          ]
+        ],
+        "id": "cb18fc616e731fc1bff9048d29e275c5",
+        "orphaned_timestamp": null
+      },
+      {
+        "config_entries": [
+          "374b2801d4122214b924938d4210ca4d"
+        ],
+        "connections": [],
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_ssh"
+          ]
+        ],
+        "id": "dd72337aff7ff5446829cc83053ea0c2",
         "orphaned_timestamp": null
       }
     ]

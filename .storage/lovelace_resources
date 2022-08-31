@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "lovelace_resources",
+  "data": {
+    "items": [
+      {
+        "url": "/hacsfiles/mini-graph-card/mini-graph-card-bundle.js?hacstag=1512800620110",
+        "type": "module",
+        "id": "cc457ec44b78422b8072120a77068f6a"
+      },
+      {
+        "url": "/local/mini-graph-card-bundle.js",
+        "type": "module",
+        "id": "50975827d6a04d8998d7b2db47e1977e"
+      },
+      {
+        "url": "/hacsfiles/light-brightness-preset-row/light-brightness-preset-row.js?hacstag=22686296922",
+        "type": "module",
+        "id": "22adb491de4a4e6db05f16d6cc55e6de"
+      },
+      {
+        "url": "/hacsfiles/rgb-light-card/card.js?hacstag=2153271951110",
+        "type": "module",
+        "id": "5642fc8d11bb4173a2ad643a7671d8d8"
+      },
+      {
+        "url": "/hacsfiles/weather-card/weather-card.js?hacstag=192732636150",
+        "type": "module",
+        "id": "de499a46a4f041118e12ba58e6cd609e"
+      },
+      {
+        "url": "/hacsfiles/apexcharts-card/apexcharts-card.js?hacstag=331701152201",
+        "type": "module",
+        "id": "02ff8add25424ad395cf4f377863f805"
+      },
+      {
+        "url": "/hacsfiles/vertical-stack-in-card/vertical-stack-in-card.js?hacstag=142051833042",
+        "type": "module",
+        "id": "485fd706e9214972b53704f87280cf42"
+      },
+      {
+        "url": "/hacsfiles/lovelace-hourly-weather/hourly-weather.js?hacstag=499270202431",
+        "type": "module",
+        "id": "b2ef2df5aaad4c8280626deca80d52d3"
+      }
+    ]
+  }
+}

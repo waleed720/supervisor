@@ -6,12 +6,26 @@
     "items": [
       {
         "name": "w360",
-        "user_id": "dd68f9c61d0d4895b6dbab3c8f104146",
+        "user_id": "7ef1b4a685274032bcac654310e87375",
         "device_trackers": [
           "device_tracker.iphone_13_pro_max_wlyd",
           "device_tracker.ipad_12_9_pro"
         ],
         "id": "w360"
+      },
+      {
+        "name": "MQTT Broker",
+        "device_trackers": [],
+        "user_id": "34d40bf8a075445285d0804f5a200c8e",
+        "picture": null,
+        "id": "mqtt_broker"
+      },
+      {
+        "name": "MQTT Client",
+        "device_trackers": [],
+        "user_id": "5162da56a99045839a8d10d35acdf942",
+        "picture": null,
+        "id": "mqtt_client"
       }
     ]
   }

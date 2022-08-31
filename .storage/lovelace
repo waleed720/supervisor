@@ -4,43 +4,655 @@
   "key": "lovelace",
   "data": {
     "config": {
-      "title": "Abo Rami Home",
+      "title": "My Home",
       "views": [
         {
-          "path": "default_view",
-          "title": "Home",
+          "theme": "Backend-selected",
+          "icon": "mdi:home-assistant",
+          "title": "My Room Controller",
+          "badges": [],
           "cards": [
             {
               "type": "light",
-              "entity": "light.njf_grf_wlydr"
+              "entity": "light.tp1_waleed",
+              "name": "ثريا ١"
             },
             {
               "type": "light",
-              "entity": "light.mjf_wlyd_l"
+              "entity": "light.tp2_waleed",
+              "name": "ثريا ٢"
             },
             {
-              "type": "entities",
-              "entities": [
-                "switch.smart_switch_2_switch_1",
-                "switch.smart_switch_switch_1"
-              ],
-              "title": "Switch"
+              "show_name": true,
+              "show_icon": true,
+              "type": "button",
+              "tap_action": {
+                "action": "toggle"
+              },
+              "entity": "switch.smart_switch_l821x_switch_1",
+              "show_state": true,
+              "name": "مكيف غرفتي"
             },
             {
               "type": "entities",
               "entities": [
                 {
-                  "entity": "light.njf_grf_wlydr"
+                  "entity": "switch.smart_switch_lmb_sqf_switch_1",
+                  "name": "لمبة السقف"
                 },
                 {
-                  "entity": "light.mjf_wlyd_l"
+                  "entity": "switch.smart_switchbjwr_switch_1"
+                },
+                {
+                  "entity": "switch.smart_switch_l821x_switch_1",
+                  "name": "المكيف"
                 }
               ],
-              "title": "نجفة غرفة"
+              "title": "مفاتيح الغرفة",
+              "state_color": true
             },
             {
-              "type": "weather-forecast",
-              "entity": "weather.forecast_abo_rami_home"
+              "type": "entities",
+              "show_header_toggle": false,
+              "entities": [
+                {
+                  "entity": "light.tp1_waleed"
+                },
+                {
+                  "type": "custom:rgb-light-card",
+                  "entity": "light.tp1_waleed",
+                  "colors": [
+                    {
+                      "rgb_color": [
+                        234,
+                        136,
+                        140
+                      ],
+                      "brightness": 255,
+                      "transition": 1
+                    },
+                    {
+                      "rgb_color": [
+                        251,
+                        180,
+                        139
+                      ],
+                      "brightness": 200,
+                      "transition": 1
+                    },
+                    {
+                      "rgb_color": [
+                        136,
+                        198,
+                        237
+                      ],
+                      "brightness": 150,
+                      "transition": 1
+                    },
+                    {
+                      "rgb_color": [
+                        140,
+                        231,
+                        185
+                      ],
+                      "brightness": 100,
+                      "transition": 1
+                    }
+                  ]
+                },
+                {
+                  "entity": "light.tp2_waleed"
+                },
+                {
+                  "type": "custom:rgb-light-card",
+                  "entity": "light.tp2_waleed",
+                  "colors": [
+                    {
+                      "rgb_color": [
+                        234,
+                        136,
+                        140
+                      ],
+                      "brightness": 255,
+                      "transition": 1
+                    },
+                    {
+                      "rgb_color": [
+                        251,
+                        180,
+                        139
+                      ],
+                      "brightness": 200,
+                      "transition": 1
+                    },
+                    {
+                      "rgb_color": [
+                        136,
+                        198,
+                        237
+                      ],
+                      "brightness": 150,
+                      "transition": 1
+                    },
+                    {
+                      "rgb_color": [
+                        140,
+                        231,
+                        185
+                      ],
+                      "brightness": 100,
+                      "transition": 1
+                    }
+                  ]
+                }
+              ],
+              "state_color": true,
+              "title": "ثريا"
+            },
+            {
+              "type": "custom:weather-card",
+              "entity": "weather.forecast_wal_eed_room",
+              "number_of_forecasts": "5"
+            },
+            {
+              "type": "media-control",
+              "entity": "media_player.lg_webos_tv_oled55cxpva"
+            },
+            {
+              "type": "entities",
+              "show_header_toggle": false,
+              "entities": [
+                {
+                  "entity": "input_select.themes"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "My NAZ",
+          "path": "NAZ",
+          "icon": "mdi:server",
+          "badges": [],
+          "cards": [
+            {
+              "type": "custom:mini-graph-card",
+              "entities": [
+                "sensor.w360_temperature"
+              ],
+              "show": {
+                "labels": true
+              },
+              "color_thresholds": [
+                {
+                  "value": 20,
+                  "color": "#f39c12"
+                },
+                {
+                  "value": 21,
+                  "color": "#d35400"
+                },
+                {
+                  "value": 21.5,
+                  "color": "#c0392b"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.w360_cpu_load_average_15_min",
+                  "name": "CPU Load Average (15 min)"
+                },
+                {
+                  "entity": "sensor.w360_cpu_load_average_5_min",
+                  "name": "CPU Load Average (5 min)"
+                },
+                {
+                  "entity": "sensor.w360_cpu_utilization_total",
+                  "name": "CPU Utilization (Total)"
+                },
+                {
+                  "entity": "sensor.w360_cpu_utilization_user",
+                  "name": "CPU Utilization (User)"
+                },
+                {
+                  "entity": "sensor.w360_download_throughput",
+                  "name": "Download Throughput"
+                },
+                {
+                  "entity": "sensor.w360_memory_available_real",
+                  "name": "Memory Available (Real)"
+                },
+                {
+                  "entity": "sensor.w360_memory_available_swap",
+                  "name": "Memory Available (Swap)"
+                },
+                {
+                  "entity": "sensor.w360_memory_total_real",
+                  "name": "Memory Total (Real)"
+                },
+                {
+                  "entity": "sensor.w360_memory_total_swap",
+                  "name": "Memory Total (Swap)"
+                },
+                {
+                  "entity": "sensor.w360_memory_usage_real",
+                  "name": "Memory Usage (Real)"
+                },
+                {
+                  "entity": "binary_sensor.w360_security_status",
+                  "name": "Security Status"
+                },
+                {
+                  "entity": "sensor.w360_upload_throughput",
+                  "name": "Upload Throughput"
+                }
+              ],
+              "title": "w360"
+            },
+            {
+              "type": "custom:mini-graph-card",
+              "entities": [
+                {
+                  "entity": "sensor.w360_temperature",
+                  "aggregate_func": "max",
+                  "name": "Max",
+                  "color": null
+                },
+                {
+                  "entity": "sensor.w360_temperature",
+                  "aggregate_func": "min",
+                  "name": "Min"
+                },
+                {
+                  "entity": "sensor.w360_temperature",
+                  "aggregate_func": "avg",
+                  "name": "Avg",
+                  "color": "green"
+                }
+              ],
+              "name": "Temp NAS daily (last week)",
+              "hours_to_show": 168,
+              "group_by": "date"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "update.w360_dsm_update",
+                  "name": "DSM Update"
+                },
+                {
+                  "entity": "sensor.w360_temperature",
+                  "name": "Temperature"
+                },
+                {
+                  "entity": "sensor.w360_cache_device_1_temperature"
+                },
+                {
+                  "entity": "sensor.w360_cache_device_2_temperature"
+                },
+                {
+                  "entity": "sensor.w360_drive_1_temperature"
+                },
+                {
+                  "entity": "sensor.w360_drive_2_temperature"
+                },
+                {
+                  "entity": "sensor.w360_drive_3_temperature"
+                },
+                {
+                  "entity": "sensor.w360_drive_4_temperature"
+                },
+                {
+                  "entity": "sensor.w360_drive_5_temperature"
+                },
+                {
+                  "entity": "sensor.w360_drive_6_temperature"
+                },
+                {
+                  "entity": "sensor.w360_volume_1_average_disk_temp"
+                }
+              ],
+              "title": "w360"
+            },
+            {
+              "type": "custom:mini-graph-card",
+              "entities": [
+                {
+                  "entity": "sensor.w360_temperature",
+                  "name": "NAS Temp"
+                },
+                {
+                  "entity": "sensor.w360_cache_device_1_temperature",
+                  "name": "Drive 1"
+                },
+                {
+                  "entity": "sensor.w360_drive_2_temperature",
+                  "name": "Drive 2"
+                },
+                {
+                  "entity": "sensor.w360_drive_3_temperature",
+                  "name": "Drive 3",
+                  "color": "green"
+                },
+                {
+                  "entity": "sensor.w360_drive_4_temperature",
+                  "name": "Drive 4"
+                },
+                {
+                  "entity": "sensor.w360_drive_5_temperature",
+                  "name": "Drive 5"
+                },
+                {
+                  "entity": "sensor.w360_drive_6_temperature",
+                  "name": "Drive 6"
+                }
+              ],
+              "name": "NAS Drive Temperature",
+              "hours_to_show": 1,
+              "points_per_hour": 60,
+              "update_interval": 30,
+              "aggregate_func": "max",
+              "line_width": 2,
+              "smoothing": false,
+              "state_map": [
+                {
+                  "value": "off",
+                  "label": "Clear"
+                },
+                {
+                  "value": "on",
+                  "label": "Detected"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "button.w360_reboot",
+                  "name": "Reboot"
+                },
+                {
+                  "entity": "button.w360_shutdown",
+                  "name": "Shutdown"
+                }
+              ],
+              "title": "w360"
+            }
+          ]
+        },
+        {
+          "theme": "Backend-selected",
+          "title": "test",
+          "path": "test",
+          "badges": [],
+          "cards": [
+            {
+              "type": "custom:apexcharts-card",
+              "header": {
+                "show": true,
+                "title": "ApexCharts-Card",
+                "show_states": true,
+                "colorize_states": true
+              },
+              "series": [
+                {
+                  "entity": "sensor.w360_temperature"
+                },
+                {
+                  "entity": "sensor.w360_drive_1_temperature",
+                  "type": "column"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "binary_sensor.coolermaster_pc_battery_status"
+                },
+                {
+                  "entity": "sensor.coolermaster_pc_cpu_usage"
+                },
+                {
+                  "entity": "sensor.coolermaster_pc_current_username"
+                },
+                {
+                  "entity": "sensor.coolermaster_pc_memory_available"
+                },
+                {
+                  "entity": "sensor.coolermaster_pc_system_uptime"
+                },
+                {
+                  "entity": "sensor.coolermaster_pc_battery_full_lifetime"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.coolermaster_pc_cpu_usage",
+                  "name": "Usage"
+                }
+              ],
+              "title": "COOLERMASTER-PC CPU"
+            },
+            {
+              "type": "vertical-stack",
+              "title": "My Card",
+              "cards": [
+                {
+                  "type": "glance",
+                  "entities": [
+                    {
+                      "entity": "binary_sensor.coolermaster_pc_network_0_wired"
+                    },
+                    {
+                      "entity": "sensor.coolermaster_pc_cpu_usage"
+                    },
+                    {
+                      "entity": "sensor.coolermaster_pc_memory_usage"
+                    }
+                  ]
+                },
+                {
+                  "type": "entities",
+                  "entities": [
+                    {
+                      "entity": "binary_sensor.coolermaster_pc_network_0_wired"
+                    },
+                    {
+                      "entity": "sensor.coolermaster_pc_cpu_usage"
+                    },
+                    {
+                      "entity": "sensor.coolermaster_pc_memory_usage"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "vertical-stack",
+              "cards": [
+                {
+                  "type": "entities",
+                  "entities": [
+                    {
+                      "entity": "binary_sensor.coolermaster_pc_network_0_wired",
+                      "name": "Network"
+                    },
+                    {
+                      "entity": "sensor.coolermaster_pc_network_0_speed",
+                      "name": "Network Link"
+                    },
+                    {
+                      "entity": "sensor.coolermaster_pc_memory_usage",
+                      "name": "CPU Usage"
+                    },
+                    {
+                      "entity": "sensor.coolermaster_pc_memory_used",
+                      "name": "Memory Usage"
+                    },
+                    {
+                      "entity": "sensor.coolermaster_pc_system_boot_time",
+                      "name": "Uptime"
+                    }
+                  ],
+                  "title": "Cooler Master",
+                  "state_color": true
+                },
+                {
+                  "type": "horizontal-stack",
+                  "cards": [
+                    {
+                      "type": "button",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "mqtt.publish",
+                        "service_date": {
+                          "topic": "nodered/trigger/coolermaster/lock"
+                        },
+                        "trigger": {}
+                      },
+                      "name": "Lock",
+                      "show_icon": false
+                    },
+                    {
+                      "type": "button",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "mqtt.publish",
+                        "service_date": {
+                          "topic": "nodered/trigger/coolermaster/lock"
+                        },
+                        "trigger": {}
+                      },
+                      "name": "Hibernate",
+                      "show_icon": false
+                    },
+                    {
+                      "type": "button",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "mqtt.publish",
+                        "service_date": {
+                          "topic": "nodered/trigger/coolermaster/lock"
+                        },
+                        "trigger": {}
+                      },
+                      "name": "Reboot",
+                      "show_icon": false
+                    },
+                    {
+                      "type": "button",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "mqtt.publish",
+                        "service_date": {
+                          "topic": "nodered/trigger/coolermaster/lock"
+                        },
+                        "trigger": {}
+                      },
+                      "name": "Shut Dowen",
+                      "show_icon": false
+                    },
+                    {
+                      "type": "button",
+                      "tap_action": {
+                        "action": "call-service",
+                        "service": "mqtt.publish",
+                        "service_date": {
+                          "topic": "nodered/trigger/coolermaster/lock"
+                        },
+                        "trigger": {}
+                      },
+                      "name": "Turn On",
+                      "show_icon": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "show_name": true,
+              "show_icon": true,
+              "type": "button",
+              "tap_action": {
+                "action": "toggle"
+              },
+              "entity": "switch.coolermaster_pc",
+              "icon": "hass:flash"
+            },
+            {
+              "type": "grid",
+              "square": false,
+              "columns": 1,
+              "cards": [
+                {
+                  "type": "picture-entity",
+                  "entity": "camera.coolermaster_pc_screen_0"
+                },
+                {
+                  "type": "picture-entity",
+                  "entity": "camera.coolermaster_pc_screen_1"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "sensor.saudi_arabia_coronavirus_confirmed"
+                },
+                {
+                  "entity": "sensor.saudi_arabia_coronavirus_current"
+                },
+                {
+                  "entity": "sensor.saudi_arabia_coronavirus_deaths"
+                },
+                {
+                  "entity": "sensor.saudi_arabia_coronavirus_recovered"
+                }
+              ]
+            },
+            {
+              "type": "entities",
+              "entities": [
+                "binary_sensor.mstsh_r_ltsl"
+              ],
+              "title": "مستشعر الاتصال"
+            },
+            {
+              "type": "entities",
+              "entities": [
+                {
+                  "entity": "switch.smart_power_strip_uk_socket_1",
+                  "name": "Socket 1"
+                },
+                {
+                  "entity": "switch.smart_power_strip_uk_socket_2",
+                  "name": "Socket 2"
+                },
+                {
+                  "entity": "switch.smart_power_strip_uk_socket_3",
+                  "name": "Socket 3"
+                },
+                {
+                  "entity": "switch.smart_power_strip_uk_socket_4",
+                  "name": "Socket 4"
+                },
+                {
+                  "entity": "switch.smart_power_strip_uk_socket_5",
+                  "name": "Socket 5"
+                }
+              ],
+              "title": "Smart power strip UK"
             }
           ]
         }

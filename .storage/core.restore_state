@@ -10,110 +10,1877 @@
         "attributes": {
           "editable": false,
           "id": "w360",
-          "latitude": 24.771438598632812,
-          "longitude": 46.80768130187252,
-          "gps_accuracy": 4.742496297999795,
-          "source": "device_tracker.iphone_13_pro_max_wlyd",
-          "user_id": "dd68f9c61d0d4895b6dbab3c8f104146",
-          "friendly_name": "w360"
+          "latitude": 24.771248501221265,
+          "longitude": 46.80876930016334,
+          "gps_accuracy": 6.104016418120359,
+          "source": "device_tracker.ipad_12_9_pro",
+          "user_id": "7ef1b4a685274032bcac654310e87375",
+          "friendly_name": "me"
         },
-        "last_changed": "2022-08-23T07:38:01.764740+00:00",
-        "last_updated": "2022-08-23T07:38:08.364640+00:00",
+        "last_changed": "2022-08-31T19:03:14.006677+00:00",
+        "last_updated": "2022-08-31T19:28:24.218676+00:00",
         "context": {
-          "id": "01GB4T693CZN3FVHNBPPYGX6YD",
+          "id": "01GBTP0J4TATTDBA1YT1PC6R3B",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
     },
     {
       "state": {
-        "entity_id": "sensor.ipad_12_9_pro_battery_level",
-        "state": "80",
+        "entity_id": "person.mqtt_broker",
+        "state": "unknown",
+        "attributes": {
+          "editable": false,
+          "id": "mqtt_broker",
+          "user_id": "34d40bf8a075445285d0804f5a200c8e",
+          "friendly_name": "MQTT Broker"
+        },
+        "last_changed": "2022-08-29T12:34:12.965506+00:00",
+        "last_updated": "2022-08-29T12:34:36.375287+00:00",
+        "context": {
+          "id": "01GBMSHE6QSMFYMAR9914EFS3C",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "person.mqtt_client",
+        "state": "unknown",
+        "attributes": {
+          "editable": false,
+          "id": "mqtt_client",
+          "user_id": "5162da56a99045839a8d10d35acdf942",
+          "friendly_name": "MQTT Client"
+        },
+        "last_changed": "2022-08-29T12:34:12.965592+00:00",
+        "last_updated": "2022-08-29T12:34:36.375392+00:00",
+        "context": {
+          "id": "01GBMSHE6Q5A27XD2MQG9ZVS7T",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_supervisor_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2022.08.5",
+          "in_progress": false,
+          "latest_version": "2022.08.5",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/supervisor/releases/tag/2022.08.5",
+          "skipped_version": null,
+          "title": "Home Assistant Supervisor",
+          "entity_picture": "https://brands.home-assistant.io/hassio/icon.png",
+          "friendly_name": "Home Assistant Supervisor Update",
+          "supported_features": 1
+        },
+        "last_changed": "2022-08-29T20:40:50.147972+00:00",
+        "last_updated": "2022-08-29T20:40:50.147972+00:00",
+        "context": {
+          "id": "01GBNNBR73BK0FQV71YDSQ6JEX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_core_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "2022.8.7",
+          "in_progress": false,
+          "latest_version": "2022.8.7",
+          "release_summary": null,
+          "release_url": "https://www.home-assistant.io/latest-release-notes/",
+          "skipped_version": null,
+          "title": "Home Assistant Core",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Core Update",
+          "supported_features": 11
+        },
+        "last_changed": "2022-08-29T12:34:26.331497+00:00",
+        "last_updated": "2022-08-29T12:34:26.331497+00:00",
+        "context": {
+          "id": "01GBMSH4CVWQCVQ0F9WNK2FTZH",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.node_red_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "13.3.2",
+          "in_progress": false,
+          "latest_version": "13.3.2",
+          "release_summary": "## What’s changed\n\n## 📚 Documentation\n\n- 📚 Fix My Home Assistant link @frenck (#1429)\n\n## ⬆️ Dependency updates\n\n- Bump @node-red-contrib-themes/theme-collection from 3.0.2 to 3.0.3 in /node-red @dependabot (#1420)\n- ⬆️ Upgrades add-on base image to 12.2.",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Node-RED",
+          "entity_picture": "/api/hassio/addons/a0d7b954_nodered/icon",
+          "friendly_name": "Node-RED Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-08-29T12:34:26.331731+00:00",
+        "last_updated": "2022-08-29T12:34:26.331731+00:00",
+        "context": {
+          "id": "01GBMSH4CVC1N6104WTW4X5181",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.mosquitto_broker_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "6.1.3",
+          "in_progress": false,
+          "latest_version": "6.1.3",
+          "release_summary": "# Changelog\n\n## 6.1.3\n\n- Change timestamp format in logs\n\n## 6.1.2\n\n- Add debug option to help with issues\n\n## 6.1.1\n\n- Don't purge openssl in cleanup\n\n## 6.1.0\n\n- Update mosquitto to 2.0.11\n- Remove `mosquitto-auth-plug` and replace with `mosquitto-go-au",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Mosquitto broker",
+          "entity_picture": "/api/hassio/addons/core_mosquitto/icon",
+          "friendly_name": "Mosquitto broker Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-08-30T09:49:35.554897+00:00",
+        "last_updated": "2022-08-30T09:49:35.555495+00:00",
+        "context": {
+          "id": "01GBQ2G0E3YJNT61NEWNN0P6S1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.tailscale_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "0.7.0",
+          "in_progress": false,
+          "latest_version": "0.7.0",
+          "release_summary": "## What’s changed\n\n## 🐛 Bug fixes\n\n- 🚑 Fix unexpected non-flag arguments to tailscale @frenck (#101)\n\n## 📚 Documentation\n\n- 📚 Use new My Home Assistant link format @frenck (#99)\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades nginx to 1.20.2-r1 @frenck (#94)\n- ⬆",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Tailscale",
+          "entity_picture": "/api/hassio/addons/a0d7b954_tailscale/icon",
+          "friendly_name": "Tailscale Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-08-29T12:34:26.332132+00:00",
+        "last_updated": "2022-08-29T12:34:26.332132+00:00",
+        "context": {
+          "id": "01GBMSH4CW1NJVR4T8KZBF1Z3D",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.adguard_home_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "4.7.3",
+          "in_progress": false,
+          "latest_version": "4.7.3",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades add-on base image to 12.2.3 @frenck (#338)\n- ⬆️ Upgrades AdGuard Home to v0.107.11 @frenck (#340)\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "AdGuard Home",
+          "entity_picture": "/api/hassio/addons/a0d7b954_adguard/icon",
+          "friendly_name": "AdGuard Home Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-08-29T12:34:26.332337+00:00",
+        "last_updated": "2022-08-29T12:34:26.332337+00:00",
+        "context": {
+          "id": "01GBMSH4CW582RJC8BV5PNGG1D",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.studio_code_server_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "5.3.0",
+          "in_progress": false,
+          "latest_version": "5.3.0",
+          "release_summary": "## What’s changed\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades add-on base image to 6.1.1 @frenck (#486)\n- ⬆️ Upgrades code-server to 4.6.0 @frenck (#487)\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Studio Code Server",
+          "entity_picture": "/api/hassio/addons/a0d7b954_vscode/icon",
+          "friendly_name": "Studio Code Server Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-08-29T12:34:26.332516+00:00",
+        "last_updated": "2022-08-29T12:34:26.332516+00:00",
+        "context": {
+          "id": "01GBMSH4CWR3DSH10Q8E7BF10F",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.grafana_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "7.6.0",
+          "in_progress": false,
+          "latest_version": "7.6.0",
+          "release_summary": "## What’s changed\n\n## 📚 Documentation\n\n- 📚 Use new My Home Assistant link format @frenck (#272)\n\n## ⬆️ Dependency updates\n\n- ⬆️ Upgrades add-on base image to 5.3.1 @frenck (#265)\n- ⬆️ Upgrades libnss3 to 2:3.61-1+deb11u2 @frenck (#266)\n- ⬆️ Upgrades libgt",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Grafana",
+          "entity_picture": "/api/hassio/addons/a0d7b954_grafana/icon",
+          "friendly_name": "Grafana Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-08-29T12:34:26.332704+00:00",
+        "last_updated": "2022-08-29T12:34:26.332704+00:00",
+        "context": {
+          "id": "01GBMSH4CWDJ8KY7Q45VZ3V22F",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.eufy_security_add_on_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "0.9.4",
+          "in_progress": false,
+          "latest_version": "0.9.4",
+          "release_summary": "No changelog found for add-on 3a26b21d_eufy_security_addon!",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Eufy Security Add-on",
+          "friendly_name": "Eufy Security Add-on Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-08-29T12:34:26.332877+00:00",
+        "last_updated": "2022-08-29T12:34:26.332877+00:00",
+        "context": {
+          "id": "01GBMSH4CW2ANTMSTYRYQ0T1PN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.rtsp_simple_server_add_on_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "v0.17.6",
+          "in_progress": false,
+          "latest_version": "v0.17.6",
+          "release_summary": "No changelog found for add-on 75a80a57_rtsp_simple_server!",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "RTSP Simple Server Add-on",
+          "friendly_name": "RTSP Simple Server Add-on Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-08-29T12:34:26.333049+00:00",
+        "last_updated": "2022-08-29T12:34:26.333049+00:00",
+        "context": {
+          "id": "01GBMSH4CXG2DN77W4QAP2V5SV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.esphome_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": true,
+          "installed_version": "2022.8.0",
+          "in_progress": false,
+          "latest_version": "2022.8.0",
+          "release_summary": "See https://esphome.io/changelog/index.html\n",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "ESPHome",
+          "entity_picture": "/api/hassio/addons/5c53de3b_esphome/icon",
+          "friendly_name": "ESPHome Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-08-29T12:34:26.333249+00:00",
+        "last_updated": "2022-08-29T12:34:26.333249+00:00",
+        "context": {
+          "id": "01GBMSH4CXS0GK5XMZC1T0BNTJ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.ewelink_smart_home_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "1.2.9",
+          "in_progress": false,
+          "latest_version": "1.2.9",
+          "release_summary": "# Changelogs\n\n## v1.2.9\n\n-   Fix get wrong number device bug\n\n## v1.2.8\n\n-   Support some new devices\n\n## v1.2.7\n\n-   Fix device online status bug\n\n## v1.2.6\n\n-   Fix login button style bug\n\n## v1.2.5\n\n-   Support NS Panel\n\n-   Update log output format\n\n#",
+          "release_url": null,
+          "skipped_version": null,
+          "title": "eWeLink Smart Home",
+          "entity_picture": "/api/hassio/addons/f4f71350_ewelink_smart_home_slug/icon",
+          "friendly_name": "eWeLink Smart Home Update",
+          "supported_features": 25
+        },
+        "last_changed": "2022-08-29T12:34:26.333428+00:00",
+        "last_updated": "2022-08-29T12:34:26.333428+00:00",
+        "context": {
+          "id": "01GBMSH4CX49RG0EZ4GM4T08GE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.home_assistant_operating_system_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "8.5",
+          "in_progress": false,
+          "latest_version": "8.5",
+          "release_summary": null,
+          "release_url": "https://github.com/home-assistant/operating-system/releases/tag/8.5",
+          "skipped_version": null,
+          "title": "Home Assistant Operating System",
+          "entity_picture": "https://brands.home-assistant.io/homeassistant/icon.png",
+          "friendly_name": "Home Assistant Operating System Update",
+          "supported_features": 3
+        },
+        "last_changed": "2022-08-29T12:34:26.333815+00:00",
+        "last_updated": "2022-08-29T12:34:26.333815+00:00",
+        "context": {
+          "id": "01GBMSH4CX4NMZR5XCBJ6GPARR",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "input_select.themes",
+        "state": "Caule Black Yellow Glass",
+        "attributes": {
+          "options": [
+            "Caule Black Rose",
+            "Caule Black Purple",
+            "Caule Black Blue",
+            "Caule Black Aqua",
+            "Caule Black Green",
+            "Caule Black Yellow",
+            "Caule Black Orange",
+            "Caule Black Coral",
+            "Caule Black Pink",
+            "Caule Black Gray",
+            "Caule Dark Rose",
+            "Caule Dark Purple",
+            "Caule Dark Blue",
+            "Caule Dark Aqua",
+            "Caule Dark Green",
+            "Caule Dark Yellow",
+            "Caule Dark Orange",
+            "Caule Dark Coral",
+            "Caule Dark Pink",
+            "Caule Dark Gray",
+            "Caule Light Rose",
+            "Caule Light Purple",
+            "Caule Light Blue",
+            "Caule Light Aqua",
+            "Caule Light Green",
+            "Caule Light Yellow",
+            "Caule Light Orange",
+            "Caule Light Coral",
+            "Caule Light Pink",
+            "Caule Light Gray",
+            "Caule Black Rose Glass",
+            "Caule Black Purple Glass",
+            "Caule Black Blue Glass",
+            "Caule Black Aqua Glass",
+            "Caule Black Green Glass",
+            "Caule Black Yellow Glass",
+            "Caule Black Orange Glass",
+            "Caule Black Coral Glass",
+            "Caule Black Pink Glass",
+            "Caule Black Gray Glass",
+            "Default"
+          ],
+          "editable": false,
+          "icon": "mdi:format-paint",
+          "friendly_name": "Themes"
+        },
+        "last_changed": "2022-08-29T12:34:26.884924+00:00",
+        "last_updated": "2022-08-29T12:34:26.884924+00:00",
+        "context": {
+          "id": "01GBMSH4Y4BDACPED8HGQZ5N8Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_cpu_usage",
+        "state": "6",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "icon": "mdi:speedometer",
+          "friendly_name": "COOLERMASTER-PC CPU Usage"
+        },
+        "last_changed": "2022-08-30T16:41:02.239807+00:00",
+        "last_updated": "2022-08-30T16:41:02.239807+00:00",
+        "context": {
+          "id": "01GBQT1CGZYRF7GGY8BJGN5P8F",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "6",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_memory_usage",
+        "state": "32",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "icon": "mdi:memory",
+          "friendly_name": "COOLERMASTER-PC Memory Usage"
+        },
+        "last_changed": "2022-08-30T16:37:06.989492+00:00",
+        "last_updated": "2022-08-30T16:37:06.989492+00:00",
+        "context": {
+          "id": "01GBQST6SDRGMS0GF34J4QN0WC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "32",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_memory_available",
+        "state": "21991",
+        "attributes": {
+          "unit_of_measurement": "MB",
+          "icon": "mdi:memory",
+          "friendly_name": "COOLERMASTER-PC Memory Available"
+        },
+        "last_changed": "2022-08-30T16:41:02.281467+00:00",
+        "last_updated": "2022-08-30T16:41:02.281467+00:00",
+        "context": {
+          "id": "01GBQT1CJ9DG5GSVAGC0Q32V59",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "21991",
+        "native_unit_of_measurement": "MB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_memory_used",
+        "state": "10718",
+        "attributes": {
+          "unit_of_measurement": "MB",
+          "icon": "mdi:memory",
+          "friendly_name": "COOLERMASTER-PC Memory Used"
+        },
+        "last_changed": "2022-08-30T16:41:02.323442+00:00",
+        "last_updated": "2022-08-30T16:41:02.323442+00:00",
+        "context": {
+          "id": "01GBQT1CKKFJV9WJKDB5XGCB4Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "10718",
+        "native_unit_of_measurement": "MB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_memory_total",
+        "state": "32709",
+        "attributes": {
+          "unit_of_measurement": "MB",
+          "icon": "mdi:memory",
+          "friendly_name": "COOLERMASTER-PC Memory Total"
+        },
+        "last_changed": "2022-08-30T16:08:47.258203+00:00",
+        "last_updated": "2022-08-30T16:08:47.258203+00:00",
+        "context": {
+          "id": "01GBQR6AWT80VP5PF1Z1CYAAE7",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "32709",
+        "native_unit_of_measurement": "MB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_battery_level",
+        "state": "NoSystemBattery",
+        "attributes": {
+          "device_class": "battery",
+          "friendly_name": "COOLERMASTER-PC Battery Level"
+        },
+        "last_changed": "2022-08-30T16:08:47.385137+00:00",
+        "last_updated": "2022-08-30T16:08:47.385137+00:00",
+        "context": {
+          "id": "01GBQR6B0S6N8T2F06W7PQKBN6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "NoSystemBattery",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_battery_full_lifetime",
+        "state": "0",
+        "attributes": {
+          "unit_of_measurement": "minutes",
+          "icon": "mdi:timer-outline",
+          "friendly_name": "COOLERMASTER-PC Battery Full Lifetime"
+        },
+        "last_changed": "2022-08-30T16:08:47.427098+00:00",
+        "last_updated": "2022-08-30T16:08:47.427098+00:00",
+        "context": {
+          "id": "01GBQR6B232H78AX7H4Z0Y4CTE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "0",
+        "native_unit_of_measurement": "minutes"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_battery_remaining_time",
+        "state": "0",
+        "attributes": {
+          "unit_of_measurement": "minutes",
+          "icon": "mdi:timer-outline",
+          "friendly_name": "COOLERMASTER-PC Battery Remaining Time"
+        },
+        "last_changed": "2022-08-30T16:08:47.469592+00:00",
+        "last_updated": "2022-08-30T16:08:47.469592+00:00",
+        "context": {
+          "id": "01GBQR6B3DPRFZ8E8DX0EN03RY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "0",
+        "native_unit_of_measurement": "minutes"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_battery_remaining",
+        "state": "100",
         "attributes": {
           "unit_of_measurement": "%",
           "device_class": "battery",
-          "icon": "mdi:battery-80",
-          "friendly_name": "Ipad 12.9 Pro  Battery Level"
+          "friendly_name": "COOLERMASTER-PC Battery Remaining"
         },
-        "last_changed": "2022-08-23T12:05:32.358277+00:00",
-        "last_updated": "2022-08-23T12:05:32.358277+00:00",
+        "last_changed": "2022-08-30T16:08:47.513260+00:00",
+        "last_updated": "2022-08-30T16:08:47.513260+00:00",
         "context": {
-          "id": "01GB59FX26NHVX04MQWQZMMANT",
+          "id": "01GBQR6B4SFB10BJKGFHTVFCV3",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": 80,
+        "native_value": "100",
         "native_unit_of_measurement": "%"
       },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
     },
     {
       "state": {
-        "entity_id": "sensor.ipad_12_9_pro_battery_state",
-        "state": "Not Charging",
+        "entity_id": "sensor.coolermaster_pc_network_0_ipv4",
+        "state": "192.168.100.126",
         "attributes": {
-          "Low Power Mode": false,
-          "icon": "mdi:battery-80",
-          "friendly_name": "Ipad 12.9 Pro  Battery State"
+          "icon": "mdi:lan",
+          "friendly_name": "COOLERMASTER-PC Network #0 - IPv4"
         },
-        "last_changed": "2022-08-23T07:38:03.144437+00:00",
-        "last_updated": "2022-08-23T07:38:03.144437+00:00",
+        "last_changed": "2022-08-30T16:08:47.556564+00:00",
+        "last_updated": "2022-08-30T16:08:47.556564+00:00",
         "context": {
-          "id": "01GB4T6408XVA70SN301M5H1ZW",
+          "id": "01GBQR6B642J9RGW4HJBBKK0Z9",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "Not Charging",
+        "native_value": "192.168.100.126",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
     },
     {
       "state": {
-        "entity_id": "sensor.ipad_12_9_pro_storage",
-        "state": "91.46",
+        "entity_id": "sensor.coolermaster_pc_network_0_ipv6",
+        "state": "2a00:5400:e052:5925:4d7c:a7cc:7acf:3c4a",
         "attributes": {
-          "Available": "187.13 غ.ب.",
-          "Available (Important)": "234.71 غ.ب.",
-          "Available (Opportunistic)": "234.09 غ.ب.",
-          "Total": "255.94 غ.ب.",
-          "unit_of_measurement": "% available",
-          "icon": "mdi:database",
-          "friendly_name": "Ipad 12.9 Pro  Storage"
+          "icon": "mdi:lan",
+          "friendly_name": "COOLERMASTER-PC Network #0 - IPv6"
         },
-        "last_changed": "2022-08-23T12:33:23.054488+00:00",
-        "last_updated": "2022-08-23T12:33:23.054488+00:00",
+        "last_changed": "2022-08-30T16:08:47.600290+00:00",
+        "last_updated": "2022-08-30T16:08:47.600290+00:00",
         "context": {
-          "id": "01GB5B2WKE5A8TVXNADKHFHT1N",
+          "id": "01GBQR6B7GYDM4EA6H1EYDBZD2",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": {
-        "native_value": "91.46",
-        "native_unit_of_measurement": "% available"
+        "native_value": "2a00:5400:e052:5925:4d7c:a7cc:7acf:3c4a",
+        "native_unit_of_measurement": null
       },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
     },
     {
       "state": {
-        "entity_id": "sensor.ipad_12_9_pro_connection_type",
+        "entity_id": "sensor.coolermaster_pc_network_0_speed",
+        "state": "1000",
+        "attributes": {
+          "unit_of_measurement": "Mbps",
+          "icon": "mdi:speedometer",
+          "friendly_name": "COOLERMASTER-PC Network #0 - Speed"
+        },
+        "last_changed": "2022-08-30T16:08:47.641873+00:00",
+        "last_updated": "2022-08-30T16:08:47.641873+00:00",
+        "context": {
+          "id": "01GBQR6B8S55QSHJGD8PEX9KG1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1000",
+        "native_unit_of_measurement": "Mbps"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_network_0_bytes_sent",
+        "state": "206201553",
+        "attributes": {
+          "unit_of_measurement": "B",
+          "friendly_name": "COOLERMASTER-PC Network #0 - Bytes Sent"
+        },
+        "last_changed": "2022-08-30T16:41:02.390896+00:00",
+        "last_updated": "2022-08-30T16:41:02.390896+00:00",
+        "context": {
+          "id": "01GBQT1CNPHWXMY45H9APP8ZM1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "206201553",
+        "native_unit_of_measurement": "B"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_network_0_bytes_received",
+        "state": "672104964",
+        "attributes": {
+          "unit_of_measurement": "B",
+          "friendly_name": "COOLERMASTER-PC Network #0 - Bytes Received"
+        },
+        "last_changed": "2022-08-30T16:41:02.432646+00:00",
+        "last_updated": "2022-08-30T16:41:02.432646+00:00",
+        "context": {
+          "id": "01GBQT1CQ09SWKTJXZ2GA8JD1R",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "672104964",
+        "native_unit_of_measurement": "B"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_network_0_bps_sent",
+        "state": "4102",
+        "attributes": {
+          "unit_of_measurement": "Bps",
+          "friendly_name": "COOLERMASTER-PC Network #0 - BPS Sent"
+        },
+        "last_changed": "2022-08-30T16:41:02.474606+00:00",
+        "last_updated": "2022-08-30T16:41:02.474606+00:00",
+        "context": {
+          "id": "01GBQT1CRARF8J8Z9RXJFDYPQZ",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "4102",
+        "native_unit_of_measurement": "Bps"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_network_0_bps_received",
+        "state": "136588",
+        "attributes": {
+          "unit_of_measurement": "Bps",
+          "friendly_name": "COOLERMASTER-PC Network #0 - BPS Received"
+        },
+        "last_changed": "2022-08-30T16:41:02.516661+00:00",
+        "last_updated": "2022-08-30T16:41:02.516661+00:00",
+        "context": {
+          "id": "01GBQT1CSM0RE13SK9ASWHPVVG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "136588",
+        "native_unit_of_measurement": "Bps"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_a_total_storage",
+        "state": "1863",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage A - Total Storage"
+        },
+        "last_changed": "2022-08-30T16:08:47.896987+00:00",
+        "last_updated": "2022-08-30T16:08:47.896987+00:00",
+        "context": {
+          "id": "01GBQR6BGR3XRG1SZ6QZZCCBDY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1863",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_a_available_free_space",
+        "state": "477",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage A - Available Free Space"
+        },
+        "last_changed": "2022-08-30T16:20:04.464517+00:00",
+        "last_updated": "2022-08-30T16:20:04.464517+00:00",
+        "context": {
+          "id": "01GBQRV07GFQM7E1QQFEVDQ5E7",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "477",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_a_total_free_space",
+        "state": "477",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage A - Total Free Space"
+        },
+        "last_changed": "2022-08-30T16:20:04.506980+00:00",
+        "last_updated": "2022-08-30T16:20:04.506980+00:00",
+        "context": {
+          "id": "01GBQRV08T0FSQBHTHVT7G3QJN",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "477",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_a_used_space",
+        "state": "1386",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage A - Used Space"
+        },
+        "last_changed": "2022-08-30T16:20:04.549663+00:00",
+        "last_updated": "2022-08-30T16:20:04.549663+00:00",
+        "context": {
+          "id": "01GBQRV0A5SX914S6PGCDFYZSB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1386",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_a_format",
+        "state": "NTFS",
+        "attributes": {
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage A - Format"
+        },
+        "last_changed": "2022-08-30T16:08:48.069014+00:00",
+        "last_updated": "2022-08-30T16:08:48.069014+00:00",
+        "context": {
+          "id": "01GBQR6BP5SRPHY5T1X701R3TC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "NTFS",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_a_usage",
+        "state": "74",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "icon": "mdi:chart-donut",
+          "friendly_name": "COOLERMASTER-PC Storage A - Usage"
+        },
+        "last_changed": "2022-08-30T16:08:48.112409+00:00",
+        "last_updated": "2022-08-30T16:08:48.112409+00:00",
+        "context": {
+          "id": "01GBQR6BQG6WDAVF1T8NK83B81",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "74",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_a_label",
+        "state": "Seagate SATA SSD 2TB",
+        "attributes": {
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage A - Label"
+        },
+        "last_changed": "2022-08-30T16:08:48.155161+00:00",
+        "last_updated": "2022-08-30T16:08:48.155161+00:00",
+        "context": {
+          "id": "01GBQR6BRV6RDFT4E3DVYTWRV5",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Seagate SATA SSD 2TB",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_c_total_storage",
+        "state": "930",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage C - Total Storage"
+        },
+        "last_changed": "2022-08-30T16:08:48.197821+00:00",
+        "last_updated": "2022-08-30T16:08:48.197821+00:00",
+        "context": {
+          "id": "01GBQR6BT52MQ3DTXYSVWNDP33",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "930",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_c_available_free_space",
+        "state": "426",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage C - Available Free Space"
+        },
+        "last_changed": "2022-08-30T16:29:47.343282+00:00",
+        "last_updated": "2022-08-30T16:29:47.343282+00:00",
+        "context": {
+          "id": "01GBQSCSEFE6PECPJ63PPJ7E29",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "426",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_c_total_free_space",
+        "state": "426",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage C - Total Free Space"
+        },
+        "last_changed": "2022-08-30T16:29:47.385220+00:00",
+        "last_updated": "2022-08-30T16:29:47.385220+00:00",
+        "context": {
+          "id": "01GBQSCSFSV336ADCKDYGHBHYA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "426",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_c_used_space",
+        "state": "504",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage C - Used Space"
+        },
+        "last_changed": "2022-08-30T16:29:47.426424+00:00",
+        "last_updated": "2022-08-30T16:29:47.426424+00:00",
+        "context": {
+          "id": "01GBQSCSH2H8H67MRY7A0C17SD",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "504",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_c_format",
+        "state": "NTFS",
+        "attributes": {
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage C - Format"
+        },
+        "last_changed": "2022-08-30T16:08:48.369481+00:00",
+        "last_updated": "2022-08-30T16:08:48.369481+00:00",
+        "context": {
+          "id": "01GBQR6BZH001NE5BHKZFZVMB2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "NTFS",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_c_usage",
+        "state": "54",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "icon": "mdi:chart-donut",
+          "friendly_name": "COOLERMASTER-PC Storage C - Usage"
+        },
+        "last_changed": "2022-08-30T16:08:48.412575+00:00",
+        "last_updated": "2022-08-30T16:08:48.412575+00:00",
+        "context": {
+          "id": "01GBQR6C0WM7A4NQ5JQZESG2JP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "54",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_c_label",
+        "state": "unknown",
+        "attributes": {
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage C - Label"
+        },
+        "last_changed": "2022-08-30T16:08:40.080852+00:00",
+        "last_updated": "2022-08-30T16:08:40.080852+00:00",
+        "context": {
+          "id": "01GBQR63WG2H1K0E96B1RQFTVC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": null,
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_g_total_storage",
+        "state": "1863",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage G - Total Storage"
+        },
+        "last_changed": "2022-08-30T16:08:48.455760+00:00",
+        "last_updated": "2022-08-30T16:08:48.455760+00:00",
+        "context": {
+          "id": "01GBQR6C27BWZ7QNM4V5R2821Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1863",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_g_available_free_space",
+        "state": "619",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage G - Available Free Space"
+        },
+        "last_changed": "2022-08-30T16:08:48.498857+00:00",
+        "last_updated": "2022-08-30T16:08:48.498857+00:00",
+        "context": {
+          "id": "01GBQR6C3J3CRV8FJ712FFH917",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "619",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_g_total_free_space",
+        "state": "619",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage G - Total Free Space"
+        },
+        "last_changed": "2022-08-30T16:08:48.542646+00:00",
+        "last_updated": "2022-08-30T16:08:48.542646+00:00",
+        "context": {
+          "id": "01GBQR6C4YK3T0VDK3RQS209Y4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "619",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_g_used_space",
+        "state": "1244",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage G - Used Space"
+        },
+        "last_changed": "2022-08-30T16:08:48.585818+00:00",
+        "last_updated": "2022-08-30T16:08:48.585818+00:00",
+        "context": {
+          "id": "01GBQR6C690DYMWC25QWHGBYM3",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1244",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_g_format",
+        "state": "NTFS",
+        "attributes": {
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage G - Format"
+        },
+        "last_changed": "2022-08-30T16:08:48.627536+00:00",
+        "last_updated": "2022-08-30T16:08:48.627536+00:00",
+        "context": {
+          "id": "01GBQR6C7K1T36K0282XY8EJRB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "NTFS",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_g_usage",
+        "state": "66",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "icon": "mdi:chart-donut",
+          "friendly_name": "COOLERMASTER-PC Storage G - Usage"
+        },
+        "last_changed": "2022-08-30T16:08:48.670143+00:00",
+        "last_updated": "2022-08-30T16:08:48.670143+00:00",
+        "context": {
+          "id": "01GBQR6C8Y5ZEGH9Q1QCJRYJYG",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "66",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_g_label",
+        "state": "MP600",
+        "attributes": {
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage G - Label"
+        },
+        "last_changed": "2022-08-30T16:08:48.714149+00:00",
+        "last_updated": "2022-08-30T16:08:48.714149+00:00",
+        "context": {
+          "id": "01GBQR6CAAJVC3XQGFXZ8FP353",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "MP600",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_w_total_storage",
+        "state": "1863",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage W - Total Storage"
+        },
+        "last_changed": "2022-08-30T16:08:48.757715+00:00",
+        "last_updated": "2022-08-30T16:08:48.757715+00:00",
+        "context": {
+          "id": "01GBQR6CBN4QB42SB03YK6Y78F",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1863",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_w_available_free_space",
+        "state": "1266",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage W - Available Free Space"
+        },
+        "last_changed": "2022-08-30T16:08:48.799855+00:00",
+        "last_updated": "2022-08-30T16:08:48.799855+00:00",
+        "context": {
+          "id": "01GBQR6CCZA03Z6DT2N7Y5BSB1",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1266",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_w_total_free_space",
+        "state": "1266",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage W - Total Free Space"
+        },
+        "last_changed": "2022-08-30T16:08:48.843712+00:00",
+        "last_updated": "2022-08-30T16:08:48.843712+00:00",
+        "context": {
+          "id": "01GBQR6CEBXSDD58WRTREDVJWV",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1266",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_w_used_space",
+        "state": "597",
+        "attributes": {
+          "unit_of_measurement": "GB",
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage W - Used Space"
+        },
+        "last_changed": "2022-08-30T16:08:48.886486+00:00",
+        "last_updated": "2022-08-30T16:08:48.886486+00:00",
+        "context": {
+          "id": "01GBQR6CFPBS8NX5SGNMVW7EMB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "597",
+        "native_unit_of_measurement": "GB"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_w_format",
+        "state": "NTFS",
+        "attributes": {
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage W - Format"
+        },
+        "last_changed": "2022-08-30T16:08:48.929010+00:00",
+        "last_updated": "2022-08-30T16:08:48.929010+00:00",
+        "context": {
+          "id": "01GBQR6CH14367VPBWDSS3YJ2J",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "NTFS",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_w_usage",
+        "state": "32",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "icon": "mdi:chart-donut",
+          "friendly_name": "COOLERMASTER-PC Storage W - Usage"
+        },
+        "last_changed": "2022-08-30T16:08:48.970860+00:00",
+        "last_updated": "2022-08-30T16:08:48.970860+00:00",
+        "context": {
+          "id": "01GBQR6CJA3WNW17PGDX3QF0S2",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "32",
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_storage_w_label",
+        "state": "MP600MVMe",
+        "attributes": {
+          "icon": "mdi:harddisk",
+          "friendly_name": "COOLERMASTER-PC Storage W - Label"
+        },
+        "last_changed": "2022-08-30T16:08:49.013678+00:00",
+        "last_updated": "2022-08-30T16:08:49.013678+00:00",
+        "context": {
+          "id": "01GBQR6CKN1MC7BQ2Y9BRCBS0N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "MP600MVMe",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_current_username",
+        "state": "Walee",
+        "attributes": {
+          "icon": "mdi:account",
+          "friendly_name": "COOLERMASTER-PC Current Username"
+        },
+        "last_changed": "2022-08-30T16:08:49.056246+00:00",
+        "last_updated": "2022-08-30T16:08:49.056246+00:00",
+        "context": {
+          "id": "01GBQR6CN0PZ023ASTY5DA3Z54",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Walee",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_system_boot_time",
+        "state": "2022-08-27 22:37:10",
+        "attributes": {
+          "icon": "mdi:timer-outline",
+          "friendly_name": "COOLERMASTER-PC System Boot Time"
+        },
+        "last_changed": "2022-08-30T16:08:49.144236+00:00",
+        "last_updated": "2022-08-30T16:08:49.144236+00:00",
+        "context": {
+          "id": "01GBQR6CQRQQD9F5X28T3YYZK0",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "2022-08-27 22:37:10",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_system_uptime",
+        "state": "02:21:03:23",
+        "attributes": {
+          "icon": "mdi:timer-outline",
+          "friendly_name": "COOLERMASTER-PC System Uptime"
+        },
+        "last_changed": "2022-08-30T16:40:31.800258+00:00",
+        "last_updated": "2022-08-30T16:40:31.800258+00:00",
+        "context": {
+          "id": "01GBQT0ESRP9Q4TPZNFZR2BGBT",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "02:21:03:23",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_system_idle_time",
+        "state": "0",
+        "attributes": {
+          "unit_of_measurement": "s",
+          "icon": "mdi:timer-outline",
+          "friendly_name": "COOLERMASTER-PC System Idle Time"
+        },
+        "last_changed": "2022-08-30T16:40:52.330746+00:00",
+        "last_updated": "2022-08-30T16:40:52.330746+00:00",
+        "context": {
+          "id": "01GBQT12VAA9HXE849EY4BRYM4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "0",
+        "native_unit_of_measurement": "s"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_screen_0_width",
+        "state": "2560",
+        "attributes": {
+          "icon": "mdi:monitor",
+          "friendly_name": "COOLERMASTER-PC Screen #0 - Width"
+        },
+        "last_changed": "2022-08-30T16:08:49.231510+00:00",
+        "last_updated": "2022-08-30T16:08:49.231510+00:00",
+        "context": {
+          "id": "01GBQR6CTFEE04ATHD5TJGCP3N",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "2560",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_screen_0_height",
+        "state": "1440",
+        "attributes": {
+          "icon": "mdi:monitor",
+          "friendly_name": "COOLERMASTER-PC Screen #0 - Height"
+        },
+        "last_changed": "2022-08-30T16:08:49.275039+00:00",
+        "last_updated": "2022-08-30T16:08:49.275039+00:00",
+        "context": {
+          "id": "01GBQR6CVVQAPV66E6PATD4D35",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1440",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_screen_1_width",
+        "state": "1920",
+        "attributes": {
+          "icon": "mdi:monitor",
+          "friendly_name": "COOLERMASTER-PC Screen #1 - Width"
+        },
+        "last_changed": "2022-08-30T16:08:49.318530+00:00",
+        "last_updated": "2022-08-30T16:08:49.318530+00:00",
+        "context": {
+          "id": "01GBQR6CX6C32JHDCFDHX2TTM4",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1920",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.coolermaster_pc_screen_1_height",
+        "state": "1080",
+        "attributes": {
+          "icon": "mdi:monitor",
+          "friendly_name": "COOLERMASTER-PC Screen #1 - Height"
+        },
+        "last_changed": "2022-08-30T16:08:49.364275+00:00",
+        "last_updated": "2022-08-30T16:08:49.364275+00:00",
+        "context": {
+          "id": "01GBQR6CYMC4R5HMJR54C0773M",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "1080",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.coolermaster_pc_power_status",
+        "state": "on",
+        "attributes": {
+          "device_class": "plug",
+          "friendly_name": "COOLERMASTER-PC Power Status"
+        },
+        "last_changed": "2022-08-30T16:08:47.299189+00:00",
+        "last_updated": "2022-08-30T16:08:47.299189+00:00",
+        "context": {
+          "id": "01GBQR6AY3TE7MXJMAVBS8V0CC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.coolermaster_pc_battery_status",
+        "state": "unknown",
+        "attributes": {
+          "device_class": "plug",
+          "friendly_name": "COOLERMASTER-PC Battery Status"
+        },
+        "last_changed": "2022-08-30T16:08:40.087404+00:00",
+        "last_updated": "2022-08-30T16:08:40.087404+00:00",
+        "context": {
+          "id": "01GBQR63WQHF7EW8G03C6TATEY",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.coolermaster_pc_network_0_wired",
+        "state": "on",
+        "attributes": {
+          "friendly_name": "COOLERMASTER-PC Network #0 - Wired"
+        },
+        "last_changed": "2022-08-30T16:08:47.683824+00:00",
+        "last_updated": "2022-08-30T16:08:47.683824+00:00",
+        "context": {
+          "id": "01GBQR6BA3WRYNMA4VHWKJWX7Y",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_activity",
+        "state": "Walking",
+        "attributes": {
+          "Confidence": "High",
+          "Types": [
+            "Walking"
+          ],
+          "icon": "mdi:walk",
+          "friendly_name": "iPhone 13 Pro Max وليد Activity"
+        },
+        "last_changed": "2022-08-31T14:20:34.763340+00:00",
+        "last_updated": "2022-08-31T14:20:34.763340+00:00",
+        "context": {
+          "id": "01GBT4CXJBD86JHJJ2W6G42XN5",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Walking",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_steps",
+        "state": "1771",
+        "attributes": {
+          "unit_of_measurement": "steps",
+          "icon": "mdi:walk",
+          "friendly_name": "iPhone 13 Pro Max وليد Steps"
+        },
+        "last_changed": "2022-08-31T15:31:29.957352+00:00",
+        "last_updated": "2022-08-31T15:31:29.957352+00:00",
+        "context": {
+          "id": "01GBT8ES15KDDT7KCXYSKMN328",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 1771,
+        "native_unit_of_measurement": "steps"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_battery_level",
+        "state": "73",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-70",
+          "friendly_name": "iPhone 13 Pro Max وليد Battery Level"
+        },
+        "last_changed": "2022-08-31T15:31:29.957626+00:00",
+        "last_updated": "2022-08-31T15:31:29.957626+00:00",
+        "context": {
+          "id": "01GBT8ES15611CQWKZ5KYRT8S7",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 73,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_storage",
+        "state": "59.78",
+        "attributes": {
+          "Available": "275.23 غ.ب.",
+          "Available (Important)": "321.04 غ.ب.",
+          "Available (Opportunistic)": "306.00 غ.ب.",
+          "Total": "511.88 غ.ب.",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "iPhone 13 Pro Max وليد Storage"
+        },
+        "last_changed": "2022-08-31T15:31:29.958519+00:00",
+        "last_updated": "2022-08-31T15:31:29.958519+00:00",
+        "context": {
+          "id": "01GBT8ES16MRNE7ZVGKET16X4M",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "59.78",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_ssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone 13 Pro Max وليد SSID"
+        },
+        "last_changed": "2022-08-29T12:34:32.787285+00:00",
+        "last_updated": "2022-08-29T12:34:32.787285+00:00",
+        "context": {
+          "id": "01GBMSHAPKGX30FDHAK8QKNSAC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_bssid",
+        "state": "Not Connected",
+        "attributes": {
+          "icon": "mdi:wifi-off",
+          "friendly_name": "iPhone 13 Pro Max وليد BSSID"
+        },
+        "last_changed": "2022-08-29T12:34:32.787432+00:00",
+        "last_updated": "2022-08-29T12:34:32.787432+00:00",
+        "context": {
+          "id": "01GBMSHAPKNR4Z0PCWE563Q932",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Connected",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_connection_type",
         "state": "Wi-Fi",
         "attributes": {
           "icon": "mdi:wifi",
-          "friendly_name": "Ipad 12.9 Pro  Connection Type"
+          "friendly_name": "iPhone 13 Pro Max وليد Connection Type"
         },
-        "last_changed": "2022-08-23T07:38:03.144653+00:00",
-        "last_updated": "2022-08-23T07:38:03.144653+00:00",
+        "last_changed": "2022-08-31T13:58:07.491509+00:00",
+        "last_updated": "2022-08-31T13:58:07.491509+00:00",
         "context": {
-          "id": "01GB4T640861DKYN3KQQFXQWCG",
+          "id": "01GBT33SW3YK7VBM2Y99JQERB9",
           "parent_id": null,
           "user_id": null
         }
@@ -122,7 +1889,386 @@
         "native_value": "Wi-Fi",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_sim_2",
+        "state": "N/A",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000002",
+          "Carrier Name": "N/A",
+          "ISO Country Code": "N/A",
+          "Mobile Country Code": "N/A",
+          "Mobile Network Code": "N/A",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone 13 Pro Max وليد SIM 2"
+        },
+        "last_changed": "2022-08-29T12:34:32.787626+00:00",
+        "last_updated": "2022-08-29T12:34:32.787626+00:00",
+        "context": {
+          "id": "01GBMSHAPKH4Z7G7ST6344YXYC",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "N/A",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_sim_1",
+        "state": "stc",
+        "attributes": {
+          "Allows VoIP": true,
+          "Carrier ID": "0000000100000001",
+          "Carrier Name": "stc",
+          "Current Radio Technology": "Long-Term Evolution (LTE)",
+          "ISO Country Code": "sa",
+          "Mobile Country Code": "420",
+          "Mobile Network Code": "01",
+          "icon": "mdi:sim",
+          "friendly_name": "iPhone 13 Pro Max وليد SIM 1"
+        },
+        "last_changed": "2022-08-29T12:34:32.787710+00:00",
+        "last_updated": "2022-08-31T12:51:12.546028+00:00",
+        "context": {
+          "id": "01GBSZ9912CFW0T72FRC170RQA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "stc",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_geocoded_location",
+        "state": "9212 شارع الأمير منصور بن عبدالعزيز - حي العليا حي العليا\nالرياض 12611\nالسعودية",
+        "attributes": {
+          "Administrative Area": "منطقة الرياض",
+          "Areas Of Interest": "N/A",
+          "Country": "السعودية",
+          "Inland Water": "N/A",
+          "ISO Country Code": "SA",
+          "Locality": "الرياض",
+          "Location": [
+            24.67954284052601,
+            46.697346069084205
+          ],
+          "Name": "9212 شارع الأمير منصور بن عبدالعزيز - حي العليا",
+          "Ocean": "N/A",
+          "Postal Code": "12611",
+          "Sub Administrative Area": "الرياض",
+          "Sub Locality": "حي العليا",
+          "Sub Thoroughfare": "9212",
+          "Thoroughfare": "شارع الأمير منصور بن عبدالعزيز",
+          "Time Zone": "Asia/Riyadh",
+          "Zones": [],
+          "icon": "mdi:map",
+          "friendly_name": "iPhone 13 Pro Max وليد Geocoded Location"
+        },
+        "last_changed": "2022-08-29T13:25:18.280743+00:00",
+        "last_updated": "2022-08-29T13:25:18.280743+00:00",
+        "context": {
+          "id": "01GBMWE8T8FY97SEZ1BEXZ82FX",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "9212 شارع الأمير منصور بن عبدالعزيز - حي العليا حي العليا\nالرياض 12611\nالسعودية",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_last_update_trigger",
+        "state": "Siri",
+        "attributes": {
+          "icon": "mdi:cellphone-wireless",
+          "friendly_name": "iPhone 13 Pro Max وليد Last Update Trigger"
+        },
+        "last_changed": "2022-08-31T14:20:34.766342+00:00",
+        "last_updated": "2022-08-31T14:20:34.766342+00:00",
+        "context": {
+          "id": "01GBT4CXJE4JFF0MAM5050V404",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Siri",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery-70",
+          "friendly_name": "iPhone 13 Pro Max وليد Battery State"
+        },
+        "last_changed": "2022-08-29T12:34:32.787964+00:00",
+        "last_updated": "2022-08-31T13:58:07.490968+00:00",
+        "context": {
+          "id": "01GBT33SW29RAPA3WBYHW2E0QW",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_average_active_pace",
+        "state": "1",
+        "attributes": {
+          "unit_of_measurement": "m/s",
+          "icon": "mdi:speedometer",
+          "friendly_name": "iPhone 13 Pro Max وليد Average Active Pace"
+        },
+        "last_changed": "2022-08-29T12:34:32.788051+00:00",
+        "last_updated": "2022-08-29T12:34:32.788051+00:00",
+        "context": {
+          "id": "01GBMSHAPMT24V6S7J13YH3CRP",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 1,
+        "native_unit_of_measurement": "m/s"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_floors_descended",
+        "state": "3",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-down",
+          "friendly_name": "iPhone 13 Pro Max وليد Floors Descended"
+        },
+        "last_changed": "2022-08-31T13:58:07.489680+00:00",
+        "last_updated": "2022-08-31T13:58:07.489680+00:00",
+        "context": {
+          "id": "01GBT33SW1VYCB2CHYH5ZB6HNB",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 3,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_floors_ascended",
+        "state": "2",
+        "attributes": {
+          "unit_of_measurement": "floors",
+          "icon": "mdi:stairs-up",
+          "friendly_name": "iPhone 13 Pro Max وليد Floors Ascended"
+        },
+        "last_changed": "2022-08-31T09:39:53.891672+00:00",
+        "last_updated": "2022-08-31T09:39:53.891672+00:00",
+        "context": {
+          "id": "01GBSMAZD3M335WQRFK0Q33GDK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 2,
+        "native_unit_of_measurement": "floors"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.iphone_13_pro_max_wlyd_distance",
+        "state": "1140",
+        "attributes": {
+          "unit_of_measurement": "m",
+          "icon": "mdi:hiking",
+          "friendly_name": "iPhone 13 Pro Max وليد Distance"
+        },
+        "last_changed": "2022-08-31T15:31:29.956834+00:00",
+        "last_updated": "2022-08-31T15:31:29.956834+00:00",
+        "context": {
+          "id": "01GBT8ES14F13JPJGN0WCRME62",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 1140,
+        "native_unit_of_measurement": "m"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "binary_sensor.iphone_13_pro_max_wlyd_focus",
+        "state": "off",
+        "attributes": {
+          "icon": "mdi:moon-waning-crescent",
+          "friendly_name": "iPhone 13 Pro Max وليد Focus"
+        },
+        "last_changed": "2022-08-31T15:31:29.959228+00:00",
+        "last_updated": "2022-08-31T15:31:29.959228+00:00",
+        "context": {
+          "id": "01GBT8ES172XSFYFW5YDGPVEX6",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "device_tracker.iphone_13_pro_max_wlyd",
+        "state": "not_home",
+        "attributes": {
+          "source_type": "gps",
+          "battery_level": 95,
+          "latitude": 24.685867309570312,
+          "longitude": 46.706828950794765,
+          "gps_accuracy": 35,
+          "altitude": 604.1218161582947,
+          "vertical_accuracy": 21.300121307373047,
+          "friendly_name": "me"
+        },
+        "last_changed": "2022-08-31T08:55:00.556279+00:00",
+        "last_updated": "2022-08-31T08:55:00.556279+00:00",
+        "context": {
+          "id": "01GBSHRS6C38BNG1J395VYHNVA",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_activity",
+        "state": "Stationary",
+        "attributes": {
+          "Confidence": "High",
+          "Types": [
+            "Stationary"
+          ],
+          "icon": "mdi:human-male",
+          "friendly_name": "Ipad 12.9 Pro  Activity"
+        },
+        "last_changed": "2022-08-31T17:50:01.237125+00:00",
+        "last_updated": "2022-08-31T17:50:01.237125+00:00",
+        "context": {
+          "id": "01GBTGCDGNCEGJPA1V1BEKF4N5",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Stationary",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_battery_level",
+        "state": "55",
+        "attributes": {
+          "unit_of_measurement": "%",
+          "device_class": "battery",
+          "icon": "mdi:battery-50",
+          "friendly_name": "Ipad 12.9 Pro  Battery Level"
+        },
+        "last_changed": "2022-08-31T18:05:01.930748+00:00",
+        "last_updated": "2022-08-31T18:05:01.930748+00:00",
+        "context": {
+          "id": "01GBTH7X3AZDVSZFZC2ADRKZAE",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": 55,
+        "native_unit_of_measurement": "%"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_battery_state",
+        "state": "Not Charging",
+        "attributes": {
+          "Low Power Mode": false,
+          "icon": "mdi:battery-50",
+          "friendly_name": "Ipad 12.9 Pro  Battery State"
+        },
+        "last_changed": "2022-08-29T12:34:32.788987+00:00",
+        "last_updated": "2022-08-31T04:37:30.565823+00:00",
+        "context": {
+          "id": "01GBS319A5E3HSJT7FBB42CHH5",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Not Charging",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_storage",
+        "state": "90.92",
+        "attributes": {
+          "Available": "185.76 غ.ب.",
+          "Available (Important)": "233.86 غ.ب.",
+          "Available (Opportunistic)": "232.71 غ.ب.",
+          "Total": "255.94 غ.ب.",
+          "unit_of_measurement": "% available",
+          "icon": "mdi:database",
+          "friendly_name": "Ipad 12.9 Pro  Storage"
+        },
+        "last_changed": "2022-08-31T17:20:28.765707+00:00",
+        "last_updated": "2022-08-31T19:32:22.511791+00:00",
+        "context": {
+          "id": "01GBTP7TVF4MZSF60TFGT0CF2Q",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "90.92",
+        "native_unit_of_measurement": "% available"
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
     },
     {
       "state": {
@@ -132,10 +2278,10 @@
           "icon": "mdi:wifi",
           "friendly_name": "Ipad 12.9 Pro  SSID"
         },
-        "last_changed": "2022-08-23T12:05:32.358722+00:00",
-        "last_updated": "2022-08-23T12:05:32.358722+00:00",
+        "last_changed": "2022-08-30T19:42:04.583123+00:00",
+        "last_updated": "2022-08-30T19:42:04.583123+00:00",
         "context": {
-          "id": "01GB59FX26216PTT95FNKPM2BN",
+          "id": "01GBR4CW97AW6ZAD7XN67ZWTQT",
           "parent_id": null,
           "user_id": null
         }
@@ -144,7 +2290,7 @@
         "native_value": "WS_5G",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
     },
     {
       "state": {
@@ -154,10 +2300,10 @@
           "icon": "mdi:wifi-star",
           "friendly_name": "Ipad 12.9 Pro  BSSID"
         },
-        "last_changed": "2022-08-23T12:05:32.358848+00:00",
-        "last_updated": "2022-08-23T12:05:32.358848+00:00",
+        "last_changed": "2022-08-30T19:42:04.583300+00:00",
+        "last_updated": "2022-08-30T19:42:04.583300+00:00",
         "context": {
-          "id": "01GB59FX26T0QWCK88JT1FRT7A",
+          "id": "01GBR4CW97AE0E8K384HYSSRTD",
           "parent_id": null,
           "user_id": null
         }
@@ -166,7 +2312,29 @@
         "native_value": "0:11:32:e3:d8:4f",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "sensor.ipad_12_9_pro_connection_type",
+        "state": "Wi-Fi",
+        "attributes": {
+          "icon": "mdi:wifi",
+          "friendly_name": "Ipad 12.9 Pro  Connection Type"
+        },
+        "last_changed": "2022-08-29T12:34:32.789359+00:00",
+        "last_updated": "2022-08-29T12:34:32.789359+00:00",
+        "context": {
+          "id": "01GBMSHAPNR1SWV59AB1DK1S7E",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": {
+        "native_value": "Wi-Fi",
+        "native_unit_of_measurement": null
+      },
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
     },
     {
       "state": {
@@ -192,15 +2360,15 @@
           "Thoroughfare": "شارع الناصرية",
           "Time Zone": "Asia/Riyadh",
           "Zones": [
-            "Abo Rami Home"
+            "waleed room"
           ],
           "icon": "mdi:map",
           "friendly_name": "Ipad 12.9 Pro  Geocoded Location"
         },
-        "last_changed": "2022-08-23T07:38:03.144919+00:00",
-        "last_updated": "2022-08-23T07:38:03.144919+00:00",
+        "last_changed": "2022-08-29T12:34:32.789454+00:00",
+        "last_updated": "2022-08-31T19:28:24.771910+00:00",
         "context": {
-          "id": "01GB4T64088E4KCNG3D3369DGA",
+          "id": "01GBTP0JP3SQB3KYS4S4J8V4A4",
           "parent_id": null,
           "user_id": null
         }
@@ -209,7 +2377,7 @@
         "native_value": "6431 شارع الناصرية حي الخليج\nالرياض 13224\nالمملكة العربية السعودية",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
     },
     {
       "state": {
@@ -219,10 +2387,10 @@
           "icon": "mdi:cellphone-wireless",
           "friendly_name": "Ipad 12.9 Pro  Last Update Trigger"
         },
-        "last_changed": "2022-08-23T12:19:31.492606+00:00",
-        "last_updated": "2022-08-23T12:19:31.492606+00:00",
+        "last_changed": "2022-08-31T19:32:22.512389+00:00",
+        "last_updated": "2022-08-31T19:32:22.512389+00:00",
         "context": {
-          "id": "01GB5A9GH4BX450NVCVNWS1NJZ",
+          "id": "01GBTP7TVG0TMJTFMYW95F6F8J",
           "parent_id": null,
           "user_id": null
         }
@@ -231,488 +2399,7 @@
         "native_value": "Periodic",
         "native_unit_of_measurement": null
       },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.ipad_12_9_pro_activity",
-        "state": "Stationary",
-        "attributes": {
-          "Confidence": "High",
-          "Types": [
-            "Stationary"
-          ],
-          "icon": "mdi:human-male",
-          "friendly_name": "Ipad 12.9 Pro  Activity"
-        },
-        "last_changed": "2022-08-23T07:38:03.145115+00:00",
-        "last_updated": "2022-08-23T07:38:03.145115+00:00",
-        "context": {
-          "id": "01GB4T64090DV2K382Z0VAJJ7Y",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "Stationary",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_activity",
-        "state": "Automotive",
-        "attributes": {
-          "Confidence": "High",
-          "Types": [
-            "Automotive"
-          ],
-          "icon": "mdi:car",
-          "friendly_name": "iPhone 13 Pro Max وليد Activity"
-        },
-        "last_changed": "2022-08-23T07:38:03.145197+00:00",
-        "last_updated": "2022-08-23T07:38:03.145197+00:00",
-        "context": {
-          "id": "01GB4T6409NM2GHWYGN4PW3VCM",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "Automotive",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_distance",
-        "state": "2419",
-        "attributes": {
-          "unit_of_measurement": "m",
-          "icon": "mdi:hiking",
-          "friendly_name": "iPhone 13 Pro Max وليد Distance"
-        },
-        "last_changed": "2022-08-23T07:38:03.145281+00:00",
-        "last_updated": "2022-08-23T07:38:03.145281+00:00",
-        "context": {
-          "id": "01GB4T6409XQXM5CNSSDV2NRRZ",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": 2419,
-        "native_unit_of_measurement": "m"
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_battery_state",
-        "state": "Not Charging",
-        "attributes": {
-          "Low Power Mode": true,
-          "icon": "mdi:battery-70",
-          "friendly_name": "iPhone 13 Pro Max وليد Battery State"
-        },
-        "last_changed": "2022-08-23T07:38:03.145362+00:00",
-        "last_updated": "2022-08-23T07:38:03.145362+00:00",
-        "context": {
-          "id": "01GB4T6409AG0X4CGJE0SHF87H",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "Not Charging",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_storage",
-        "state": "60.22",
-        "attributes": {
-          "Available": "277.47 GB",
-          "Available (Important)": "323.97 GB",
-          "Available (Opportunistic)": "308.24 GB",
-          "Total": "511.88 GB",
-          "unit_of_measurement": "% available",
-          "icon": "mdi:database",
-          "friendly_name": "iPhone 13 Pro Max وليد Storage"
-        },
-        "last_changed": "2022-08-23T07:38:03.145440+00:00",
-        "last_updated": "2022-08-23T07:38:03.145440+00:00",
-        "context": {
-          "id": "01GB4T6409625JEW32H58GQRT3",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "60.22",
-        "native_unit_of_measurement": "% available"
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_floors_ascended",
-        "state": "3",
-        "attributes": {
-          "unit_of_measurement": "floors",
-          "icon": "mdi:stairs-up",
-          "friendly_name": "iPhone 13 Pro Max وليد Floors Ascended"
-        },
-        "last_changed": "2022-08-23T07:38:03.145519+00:00",
-        "last_updated": "2022-08-23T07:38:03.145519+00:00",
-        "context": {
-          "id": "01GB4T640901DRR2Y6P7CPCWC5",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": 3,
-        "native_unit_of_measurement": "floors"
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_ssid",
-        "state": "waleed5G",
-        "attributes": {
-          "icon": "mdi:wifi",
-          "friendly_name": "iPhone 13 Pro Max وليد SSID"
-        },
-        "last_changed": "2022-08-23T07:38:03.145597+00:00",
-        "last_updated": "2022-08-23T07:38:03.145597+00:00",
-        "context": {
-          "id": "01GB4T6409A2SB3SA5Q9QMTHQJ",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "waleed5G",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_floors_descended",
-        "state": "4",
-        "attributes": {
-          "unit_of_measurement": "floors",
-          "icon": "mdi:stairs-down",
-          "friendly_name": "iPhone 13 Pro Max وليد Floors Descended"
-        },
-        "last_changed": "2022-08-23T07:38:03.145677+00:00",
-        "last_updated": "2022-08-23T07:38:03.145677+00:00",
-        "context": {
-          "id": "01GB4T64096XWW209REGA7BHB8",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": 4,
-        "native_unit_of_measurement": "floors"
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_bssid",
-        "state": "bc:2e:f6:ff:68:b2",
-        "attributes": {
-          "icon": "mdi:wifi-star",
-          "friendly_name": "iPhone 13 Pro Max وليد BSSID"
-        },
-        "last_changed": "2022-08-23T07:38:03.145753+00:00",
-        "last_updated": "2022-08-23T07:38:03.145753+00:00",
-        "context": {
-          "id": "01GB4T6409D5G653J9C03V1CQQ",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "bc:2e:f6:ff:68:b2",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_connection_type",
-        "state": "Wi-Fi",
-        "attributes": {
-          "icon": "mdi:wifi",
-          "friendly_name": "iPhone 13 Pro Max وليد Connection Type"
-        },
-        "last_changed": "2022-08-23T07:38:03.145829+00:00",
-        "last_updated": "2022-08-23T07:38:03.145829+00:00",
-        "context": {
-          "id": "01GB4T6409YMKB74CZR19574FN",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "Wi-Fi",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_sim_1",
-        "state": "stc",
-        "attributes": {
-          "Allows VoIP": true,
-          "Carrier ID": "0000000100000001",
-          "Carrier Name": "stc",
-          "Current Radio Technology": "Long-Term Evolution (LTE)",
-          "ISO Country Code": "sa",
-          "Mobile Country Code": "420",
-          "Mobile Network Code": "01",
-          "icon": "mdi:sim",
-          "friendly_name": "iPhone 13 Pro Max وليد SIM 1"
-        },
-        "last_changed": "2022-08-23T07:38:03.145906+00:00",
-        "last_updated": "2022-08-23T07:38:03.145906+00:00",
-        "context": {
-          "id": "01GB4T64091JTY97JKMCRJYMFS",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "stc",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_sim_2",
-        "state": "N/A",
-        "attributes": {
-          "Allows VoIP": true,
-          "Carrier ID": "0000000100000002",
-          "Carrier Name": "N/A",
-          "ISO Country Code": "N/A",
-          "Mobile Country Code": "N/A",
-          "Mobile Network Code": "N/A",
-          "icon": "mdi:sim",
-          "friendly_name": "iPhone 13 Pro Max وليد SIM 2"
-        },
-        "last_changed": "2022-08-23T07:38:03.145983+00:00",
-        "last_updated": "2022-08-23T07:38:03.145983+00:00",
-        "context": {
-          "id": "01GB4T6409W0XPTR89JPWAG3GM",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "N/A",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_geocoded_location",
-        "state": "3287 شارع الناصرة - حي الخليج حي الخليج\nالرياض 13224\nالسعودية",
-        "attributes": {
-          "Administrative Area": "منطقة الرياض",
-          "Areas Of Interest": "N/A",
-          "Country": "السعودية",
-          "Inland Water": "N/A",
-          "ISO Country Code": "SA",
-          "Locality": "الرياض",
-          "Location": [
-            24.771438598632812,
-            46.80768130187252
-          ],
-          "Name": "3287 شارع الناصرة - حي الخليج",
-          "Ocean": "N/A",
-          "Postal Code": "13224",
-          "Sub Administrative Area": "الرياض",
-          "Sub Locality": "حي الخليج",
-          "Sub Thoroughfare": "3287",
-          "Thoroughfare": "شارع الناصرة",
-          "Time Zone": "Asia/Riyadh",
-          "Zones": [
-            "Abo Rami Home"
-          ],
-          "icon": "mdi:map",
-          "friendly_name": "iPhone 13 Pro Max وليد Geocoded Location"
-        },
-        "last_changed": "2022-08-23T07:38:03.146059+00:00",
-        "last_updated": "2022-08-23T07:38:03.146059+00:00",
-        "context": {
-          "id": "01GB4T640AN73GHK3QV4W45A1C",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "3287 شارع الناصرة - حي الخليج حي الخليج\nالرياض 13224\nالسعودية",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_last_update_trigger",
-        "state": "Geographic Region Entered",
-        "attributes": {
-          "icon": "mdi:cellphone-wireless",
-          "friendly_name": "iPhone 13 Pro Max وليد Last Update Trigger"
-        },
-        "last_changed": "2022-08-23T07:38:03.146144+00:00",
-        "last_updated": "2022-08-23T07:38:03.146144+00:00",
-        "context": {
-          "id": "01GB4T640AZHHD7TBS8T53ASPJ",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": "Geographic Region Entered",
-        "native_unit_of_measurement": null
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_battery_level",
-        "state": "77",
-        "attributes": {
-          "unit_of_measurement": "%",
-          "device_class": "battery",
-          "icon": "mdi:battery-70",
-          "friendly_name": "iPhone 13 Pro Max وليد Battery Level"
-        },
-        "last_changed": "2022-08-23T07:38:03.146235+00:00",
-        "last_updated": "2022-08-23T07:38:03.146235+00:00",
-        "context": {
-          "id": "01GB4T640AQG9TJHM7KF8D67RP",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": 77,
-        "native_unit_of_measurement": "%"
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_steps",
-        "state": "3689",
-        "attributes": {
-          "unit_of_measurement": "steps",
-          "icon": "mdi:walk",
-          "friendly_name": "iPhone 13 Pro Max وليد Steps"
-        },
-        "last_changed": "2022-08-23T07:38:03.146315+00:00",
-        "last_updated": "2022-08-23T07:38:03.146315+00:00",
-        "context": {
-          "id": "01GB4T640AHM6C3QXYEF7QZVE6",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": 3689,
-        "native_unit_of_measurement": "steps"
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "sensor.iphone_13_pro_max_wlyd_average_active_pace",
-        "state": "1",
-        "attributes": {
-          "unit_of_measurement": "m/s",
-          "icon": "mdi:speedometer",
-          "friendly_name": "iPhone 13 Pro Max وليد Average Active Pace"
-        },
-        "last_changed": "2022-08-23T07:38:03.146393+00:00",
-        "last_updated": "2022-08-23T07:38:03.146393+00:00",
-        "context": {
-          "id": "01GB4T640AP97NYXTG9AX10TX1",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": {
-        "native_value": 1,
-        "native_unit_of_measurement": "m/s"
-      },
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "device_tracker.ipad_12_9_pro",
-        "state": "home",
-        "attributes": {
-          "source_type": "gps",
-          "battery_level": 100,
-          "latitude": 24.771248501221265,
-          "longitude": 46.80876930016334,
-          "gps_accuracy": 6.104016418120359,
-          "altitude": 596.1389255523682,
-          "vertical_accuracy": 37.48439025878906,
-          "friendly_name": "Ipad 12.9 Pro "
-        },
-        "last_changed": "2022-08-23T07:38:03.160511+00:00",
-        "last_updated": "2022-08-23T07:38:03.160511+00:00",
-        "context": {
-          "id": "01GB4T640RAQWE3WX31SQDGD7S",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
-    },
-    {
-      "state": {
-        "entity_id": "device_tracker.iphone_13_pro_max_wlyd",
-        "state": "home",
-        "attributes": {
-          "source_type": "gps",
-          "battery_level": 77,
-          "latitude": 24.771438598632812,
-          "longitude": 46.80768130187252,
-          "gps_accuracy": 4.742496297999795,
-          "altitude": 596.9203831935301,
-          "course": 55.53325972195143,
-          "speed": 5.968024274138135,
-          "vertical_accuracy": 3.366491630206004,
-          "friendly_name": "iPhone 13 Pro Max وليد"
-        },
-        "last_changed": "2022-08-23T07:38:03.160798+00:00",
-        "last_updated": "2022-08-23T07:38:03.160798+00:00",
-        "context": {
-          "id": "01GB4T640RCMC9CV0D7K54A3J4",
-          "parent_id": null,
-          "user_id": null
-        }
-      },
-      "extra_data": null,
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
     },
     {
       "state": {
@@ -722,35 +2409,132 @@
           "icon": "mdi:moon-waning-crescent",
           "friendly_name": "Ipad 12.9 Pro  Focus"
         },
-        "last_changed": "2022-08-23T07:38:03.160965+00:00",
-        "last_updated": "2022-08-23T07:38:03.160965+00:00",
+        "last_changed": "2022-08-31T15:32:14.190523+00:00",
+        "last_updated": "2022-08-31T15:32:14.190523+00:00",
         "context": {
-          "id": "01GB4T640R7MFYQN9R55M96117",
+          "id": "01GBT8G47E1FZH71P8NP05P06C",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
     },
     {
       "state": {
-        "entity_id": "binary_sensor.iphone_13_pro_max_wlyd_focus",
-        "state": "off",
+        "entity_id": "device_tracker.ipad_12_9_pro",
+        "state": "home",
         "attributes": {
-          "icon": "mdi:moon-waning-crescent",
-          "friendly_name": "iPhone 13 Pro Max وليد Focus"
+          "source_type": "gps",
+          "battery_level": 55,
+          "latitude": 24.771248501221265,
+          "longitude": 46.80876930016334,
+          "gps_accuracy": 6.104016418120359,
+          "altitude": 595.9800453186035,
+          "vertical_accuracy": 43.30070495605469,
+          "friendly_name": "Ipad 12.9 Pro "
         },
-        "last_changed": "2022-08-23T07:38:03.161114+00:00",
-        "last_updated": "2022-08-23T07:38:03.161114+00:00",
+        "last_changed": "2022-08-31T19:28:24.218329+00:00",
+        "last_updated": "2022-08-31T19:28:24.218329+00:00",
         "context": {
-          "id": "01GB4T640SPNE6THRBNVCJ8GM1",
+          "id": "01GBTP0J4TMKCT9WJTDZ0VMTMD",
           "parent_id": null,
           "user_id": null
         }
       },
       "extra_data": null,
-      "last_seen": "2022-08-23T12:36:28.650773+00:00"
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "media_player.lg_webos_tv_oled55cxpva",
+        "state": "off",
+        "attributes": {
+          "source_list": [
+            "Live TV"
+          ],
+          "assumed_state": true,
+          "device_class": "tv",
+          "friendly_name": "[LG] webOS TV OLED55CXPVA",
+          "supported_features": 24381
+        },
+        "last_changed": "2022-08-29T12:34:34.757501+00:00",
+        "last_updated": "2022-08-29T12:34:34.757501+00:00",
+        "context": {
+          "id": "01GBMSHCM5XD1JAM0JY04R09K7",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.w360_reboot",
+        "state": "2022-08-26T17:57:28.231292+00:00",
+        "attributes": {
+          "device_class": "restart",
+          "friendly_name": "w360 Reboot"
+        },
+        "last_changed": "2022-08-29T12:34:34.847804+00:00",
+        "last_updated": "2022-08-29T12:34:34.847804+00:00",
+        "context": {
+          "id": "01GBMSHCPZ7KYB4RVGJWE5XFAK",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "button.w360_shutdown",
+        "state": "2022-08-26T17:57:34.080664+00:00",
+        "attributes": {
+          "icon": "mdi:power",
+          "friendly_name": "w360 Shutdown"
+        },
+        "last_changed": "2022-08-29T12:34:34.847960+00:00",
+        "last_updated": "2022-08-29T12:34:34.847960+00:00",
+        "context": {
+          "id": "01GBMSHCPZC3KJHDVQBE1B167A",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
+    },
+    {
+      "state": {
+        "entity_id": "update.w360_dsm_update",
+        "state": "off",
+        "attributes": {
+          "auto_update": false,
+          "installed_version": "DSM 7.1-42661 Update 4",
+          "in_progress": false,
+          "latest_version": "DSM 7.1-42661 Update 4",
+          "release_summary": null,
+          "release_url": null,
+          "skipped_version": null,
+          "title": "Synology DSM",
+          "attribution": "Data provided by Synology",
+          "entity_picture": "https://brands.home-assistant.io/_/synology_dsm/icon.png",
+          "friendly_name": "w360 DSM Update",
+          "supported_features": 0
+        },
+        "last_changed": "2022-08-29T12:34:34.848130+00:00",
+        "last_updated": "2022-08-29T12:34:34.848130+00:00",
+        "context": {
+          "id": "01GBMSHCQ0E6VSMVDEY8K834P8",
+          "parent_id": null,
+          "user_id": null
+        }
+      },
+      "extra_data": null,
+      "last_seen": "2022-08-31T19:34:36.597004+00:00"
     }
   ]
 }

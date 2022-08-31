@@ -6,9 +6,10 @@
     "preferences": {
       "base": true,
       "usage": true,
-      "statistics": true
+      "statistics": true,
+      "diagnostics": true
     },
     "onboarded": true,
-    "uuid": "92d742315cf348db827608182e8af8c8"
+    "uuid": "544f960079a64865b45be3375e2553cd"
   }
 }

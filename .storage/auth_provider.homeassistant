@@ -6,7 +6,15 @@
     "users": [
       {
         "username": "w360",
-        "password": "JDJiJDEyJDFJMDZhV0NlZmJ3dHBjRzRZbm5PaU85RjFkMUp2Rk9FOFgyRlY2cTV3V2dBRXRveHVSRXpP"
+        "password": "JDJiJDEyJEJlZ0htY21ocTJKN1YxTGJDaG9rT09ZS1g2MmRrZGVQYnpnY1BKR2h5UE44L0YwM294U0xH"
+      },
+      {
+        "username": "mqttbroker",
+        "password": "JDJiJDEyJFdNYlNXbFd1Y1lIN0ptUnNTVzF1VnV6WkUwMU5CTHpSM25MTUdJSE51Qm53Zlc2TFNBNGlX"
+      },
+      {
+        "username": "mqttclient",
+        "password": "JDJiJDEyJC4yanpXYjdnLkVheXBLL3luaXhWbWVseU5jME5KT3c1T3FWdWNvOEtsSVRzYnFaeVVJZkU2"
       }
     ]
   }

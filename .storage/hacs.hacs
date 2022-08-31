@@ -1,0 +1,30 @@
+{
+  "version": "6",
+  "minor_version": 1,
+  "key": "hacs.hacs",
+  "data": {
+    "archived_repositories": [
+      "custom-components/wienerlinien",
+      "Cyr-ius/hass-hue-service-advanced",
+      "Cyr-ius/hass-cozytouch",
+      "eavanvalkenburg/sia",
+      "KTibow/lovelace-dark-soft-ui-theme",
+      "KTibow/lovelace-light-soft-ui-theme",
+      "GeorgeSG/lovelace-folder-card",
+      "georgezhao2010/climate_ewelink"
+    ],
+    "renamed_repositories": {
+      "78wesley/Darkish-Theme": "78wesley/Home-Assistant-Darkish-Theme",
+      "9a4gl/hass-peltec": "9a4gl/hass-centrometal-boiler",
+      "DarkSir23/sensor.mylar": "WillowMist/sensor.mylar",
+      "dmitry-k/yandex_smart_home": "dext0r/yandex_smart_home",
+      "nbogojevic/homeassistant-midea-dehumidifier-lan": "nbogojevic/homeassistant-midea-air-appliances-lan",
+      "nikrolls/homeassistant-goldair-climate": "nicole-ashley/homeassistant-goldair-climate",
+      "wernerhp/ha_integration_load_shedding": "wernerhp/ha.integration.load_shedding",
+      "wills106/homsassistant-solax-modbus": "wills106/homeassistant-solax-modbus",
+      "TheLastProject/lovelace-valetudo-map-card": "Hypfer/lovelace-valetudo-map-card",
+      "rj175/home-assistant-aws-codepipeline": "ohheyrj/home-assistant-aws-codepipeline"
+    },
+    "ignored_repositories": []
+  }
+}

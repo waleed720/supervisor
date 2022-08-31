@@ -18,11 +18,6 @@
         "name": "Bedroom",
         "id": "bedroom",
         "picture": null
-      },
-      {
-        "name": "Waleed Room",
-        "id": "waleed_room",
-        "picture": null
       }
     ]
   }
